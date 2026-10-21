@@ -1,0 +1,2693 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zina Morocco Tours | Luxury Private Tours & Sahara Expeditions</title>
+  
+  <!-- FAVICON: EXACT CIRCLE EMBLEM -->
+  <link rel="icon" type="image/png" href="zina_circle_icon.png" />
+  <link rel="apple-touch-icon" href="zina_circle_icon.png" />
+
+  <!-- MODERN LEGIBLE TYPOGRAPHY -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+  
+  <!-- FONT AWESOME ICONS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <!-- TAILWIND CSS VIA CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            zinaNavy: {
+              800: '#13335A',
+              900: '#0D2748',
+              950: '#07172C'
+            },
+            zinaGold: {
+              DEFAULT: '#C98939',
+              400: '#E29E4B',
+              500: '#C98939',
+              600: '#A86C20'
+            },
+            zinaOrange: '#F98207'
+          },
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+            display: ['Outfit', 'sans-serif'],
+            arabic: ['Tajawal', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+
+    /* Ultra-Modern Gray Theme with Animated Color Accents */
+    body {
+      background-color: #111318 !important;
+      color: #E2E8F0;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      overflow-x: hidden;
+    }
+    h1, h2, h3, h4, .font-display {
+      font-family: 'Outfit', sans-serif;
+    }
+    body.lang-ar {
+      font-family: 'Tajawal', sans-serif !important;
+      direction: rtl;
+      text-align: right;
+    }
+
+    /* Sophisticated Gray Glass Cards with Animated Glow */
+    .zina-card {
+      background: rgba(24, 27, 34, 0.75);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 1px solid rgba(201, 137, 57, 0.25);
+      transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+      position: relative;
+      overflow: hidden;
+    }
+    .zina-card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0; height: 2px;
+      background: linear-gradient(90deg, transparent, #C98939, transparent);
+      opacity: 0.5;
+      transition: opacity 0.4s;
+    }
+    .zina-card:hover {
+      background: rgba(30, 34, 42, 0.95);
+      border-color: rgba(201, 137, 57, 0.75);
+      transform: translateY(-6px);
+      box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.8), 0 0 30px rgba(201, 137, 57, 0.25);
+    }
+    .zina-card:hover::before {
+      opacity: 1;
+    }
+
+    /* Section Special Color Themes */
+    .section-destinations {
+      background: radial-gradient(circle at top right, rgba(13, 39, 72, 0.25), transparent 50%),
+                  radial-gradient(circle at bottom left, rgba(201, 137, 57, 0.12), transparent 50%);
+    }
+    .section-blog {
+      background: radial-gradient(circle at center, rgba(249, 130, 7, 0.08), transparent 60%);
+    }
+    .section-why-us {
+      background: linear-gradient(135deg, #0E121A 0%, #171B24 100%);
+      border-top: 1px solid rgba(201, 137, 57, 0.3);
+      border-bottom: 1px solid rgba(201, 137, 57, 0.3);
+    }
+    .section-testimonials {
+      background: radial-gradient(circle at top, rgba(56, 189, 248, 0.06), transparent 50%);
+    }
+
+    /* Smooth Floating Animation */
+    @keyframes floatSoft {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-8px); }
+    }
+    .animate-float {
+      animation: floatSoft 5s ease-in-out infinite;
+    }
+
+    /* Pulse Glow Animation */
+    @keyframes pulseGlow {
+      0%, 100% { box-shadow: 0 0 15px rgba(201, 137, 57, 0.3); }
+      50% { box-shadow: 0 0 30px rgba(249, 130, 7, 0.6); }
+    }
+    .animate-pulse-glow {
+      animation: pulseGlow 3s infinite;
+    }
+
+    /* Modal Animation */
+    @keyframes modalPop {
+      from { opacity: 0; transform: scale(0.96) translateY(15px); }
+      to { opacity: 1; transform: scale(1) translateY(0); }
+    }
+    .animate-modal-pop {
+      animation: modalPop 0.35s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+    }
+
+    .line-clamp-3 {
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+    ::-webkit-scrollbar { width: 8px; }
+    ::-webkit-scrollbar-track { background: #111318; }
+    ::-webkit-scrollbar-thumb { background: #C98939; border-radius: 9999px; }
+    ::-webkit-scrollbar-thumb:hover { background: #E29E4B; }
+
+  </style>
+</head>
+
+<body class="selection:bg-zinaGold selection:text-zinaNavy-950">
+
+  <!-- ================= TOP BAR ================= -->
+  <div class="bg-zinaNavy-950/95 border-b border-zinaGold/20 py-2.5 px-4 sm:px-8 sticky top-0 z-50 backdrop-blur-md">
+    <div class="max-w-7xl mx-auto flex justify-between items-center">
+      <div class="flex items-center gap-2 text-xs text-slate-300">
+        <i class="fa-solid fa-compass text-zinaGold animate-spin" style="animation-duration: 25s;"></i>
+        <span class="font-semibold tracking-wider text-[11px] sm:text-xs text-slate-200" data-i18n="top_bar_title">
+          ZINA MOROCCO TOURS • OFFICIAL PRIVATE LUXURY & SAHARA EXPEDITIONS
+        </span>
+      </div>
+
+      <!-- Dark/Light Theme Switcher -->
+      
+
+      <!-- 6-Language Dropdown Switcher (Default: English) -->
+      <div class="flex items-center gap-2 bg-zinaNavy-900 border border-zinaGold/40 rounded-full px-3 py-1 shadow-inner">
+        <i class="fa-solid fa-globe text-zinaGold text-xs"></i>
+        <select id="languageSelector" onchange="switchSiteLanguage(this.value)" class="bg-transparent text-zinaGold font-bold text-xs focus:outline-none cursor-pointer pr-1">
+          <option value="en" class="bg-zinaNavy-900 text-white">English 🇬🇧 (Default)</option>
+          <option value="fr" class="bg-zinaNavy-900 text-white">Français 🇫🇷</option>
+          <option value="es" class="bg-zinaNavy-900 text-white">Español 🇪🇸</option>
+          <option value="zh" class="bg-zinaNavy-900 text-white">中文 🇨🇳</option>
+          <option value="ar" class="bg-zinaNavy-900 text-white">العربية 🇲🇦</option>
+          <option value="de" class="bg-zinaNavy-900 text-white">Deutsch 🇩🇪</option>
+        </select>
+      </div>
+    </div>
+  </div>
+
+  <!-- ================= HEADER NAVIGATION ================= -->
+  <header class="bg-zinaNavy-900/90 backdrop-blur-xl border-b border-zinaGold/25 sticky top-10 z-40">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-24 flex items-center justify-between">
+      
+      <!-- Authentic Zina Logo -->
+      <a href="#hero" class="flex items-center group py-2" aria-label="Zina Morocco Tours">
+        <div class="bg-white rounded-2xl px-3 py-1.5 shadow-md flex items-center hover:scale-[1.02] transition-transform">
+          <img src="logo.png" alt="Zina Morocco Tours" class="h-12 sm:h-14 w-auto object-contain" />
+        </div>
+      </a>
+
+      <!-- Desktop Nav -->
+      <nav class="hidden lg:flex items-center space-x-8 text-sm font-semibold tracking-wide">
+        <a href="#hero" class="text-slate-200 hover:text-zinaGold transition-colors" data-i18n="nav_home">Home</a>
+        <a href="#destinations" class="text-slate-200 hover:text-zinaGold transition-colors" data-i18n="nav_destinations">Destinations</a>
+        <a href="#blog" class="text-slate-200 hover:text-zinaGold transition-colors" data-i18n="nav_blog">Travel Blog</a>
+        <a href="#why-us" class="text-slate-200 hover:text-zinaGold transition-colors" data-i18n="nav_why_us">Why Us</a>
+        <a href="#testimonials" class="text-slate-200 hover:text-zinaGold transition-colors" data-i18n="nav_reviews">Reviews</a>
+      </nav>
+
+      <!-- Action Button -->
+      <div class="hidden sm:flex items-center">
+        <a href="#contact" class="px-6 py-3 rounded-full bg-gradient-to-r from-zinaGold to-zinaOrange text-slate-950 font-bold text-xs uppercase tracking-wider shadow-lg hover:scale-105 transition-all">
+          <i class="fa-solid fa-paper-plane mr-2"></i>
+          <span data-i18n="btn_send_msg">Send Message</span>
+        </a>
+      </div>
+
+      <!-- Mobile Hamburger Button -->
+      <button onclick="toggleMobileNavMenu()" class="lg:hidden p-2 text-zinaGold hover:bg-zinaNavy-800 rounded-lg transition" aria-label="Toggle navigation">
+        <i class="fa-solid fa-bars-staggered text-2xl"></i>
+      </button>
+    </div>
+
+    <!-- Mobile Drawer -->
+    <div id="mobileNavDrawer" class="hidden lg:hidden bg-zinaNavy-950 border-t border-zinaGold/20 px-6 py-6 space-y-4 shadow-2xl">
+      <a href="#hero" onclick="toggleMobileNavMenu()" class="block text-slate-200 hover:text-zinaGold text-sm font-medium" data-i18n="nav_home">Home</a>
+      <a href="#destinations" onclick="toggleMobileNavMenu()" class="block text-slate-200 hover:text-zinaGold text-sm font-medium" data-i18n="nav_destinations">Destinations</a>
+      <a href="#blog" onclick="toggleMobileNavMenu()" class="block text-slate-200 hover:text-zinaGold text-sm font-medium" data-i18n="nav_blog">Travel Blog</a>
+      <a href="#why-us" onclick="toggleMobileNavMenu()" class="block text-slate-200 hover:text-zinaGold text-sm font-medium" data-i18n="nav_why_us">Why Us</a>
+      <a href="#testimonials" onclick="toggleMobileNavMenu()" class="block text-slate-200 hover:text-zinaGold text-sm font-medium" data-i18n="nav_reviews">Reviews</a>
+      <a href="#contact" onclick="toggleMobileNavMenu()" class="block text-zinaGold font-bold text-sm pt-2 border-t border-white/10" data-i18n="nav_contact">Contact Us</a>
+    </div>
+  </header>
+
+  <!-- ================= HERO SECTION ================= -->
+  <section id="hero" class="relative min-h-[90vh] flex items-center justify-center py-20 px-4 sm:px-6 lg:px-8 overflow-hidden">
+    <div class="absolute inset-0 z-0">
+      <img src="https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=2000&q=85" 
+           alt="Real Merzouga Erg Chebbi Desert Dunes" 
+           class="w-full h-full object-cover filter brightness-[0.35] contrast-[1.15]" />
+      <div class="absolute inset-0 bg-gradient-to-b from-zinaNavy-950/80 via-zinaNavy-950/40 to-[#050F1D]"></div>
+    </div>
+
+    <div class="relative z-10 max-w-5xl mx-auto text-center px-4">
+      <div class="inline-flex items-center gap-2.5 px-5 py-2 rounded-full bg-zinaNavy-900/90 border border-zinaGold/40 text-zinaGold text-xs tracking-wider uppercase font-bold mb-8 shadow-2xl backdrop-blur-md animate-float">
+        <i class="fa-solid fa-star text-amber-400"></i>
+        <span data-i18n="hero_badge">5.0 Rated Luxury Morocco & Sahara Private Expeditions</span>
+      </div>
+
+      <h1 class="text-4xl sm:text-6xl md:text-7xl font-extrabold text-white leading-tight mb-6 tracking-tight">
+        <span data-i18n="hero_h1_sub">Handcrafted Private Journeys Through</span><br>
+        <span class="bg-gradient-to-r from-amber-200 via-zinaGold-400 to-zinaOrange bg-clip-text text-transparent" data-i18n="hero_h1_main">
+          Morocco & The Grand Sahara
+        </span>
+      </h1>
+
+      <p class="max-w-3xl mx-auto text-slate-200 text-sm sm:text-base md:text-lg font-normal leading-relaxed mb-10" data-i18n="hero_lead">
+        Experience imperial capitals, hidden High Atlas kasbahs, Atlantic coastal gems, and the majestic Erg Chebbi dunes in Merzouga with native Berber guides. Explore our 12 destinations with direct video showcases, read our 27 in-depth travel guides, or send your ideas directly to our team.
+      </p>
+
+      <div class="flex flex-col sm:flex-row items-center justify-center gap-4 mb-16">
+        <a href="#destinations" class="w-full sm:w-auto px-8 py-4 rounded-full bg-gradient-to-r from-zinaGold to-zinaOrange text-slate-950 font-bold text-xs uppercase tracking-wider shadow-2xl hover:scale-105 transition-all">
+          <i class="fa-solid fa-play mr-2"></i> Explore 12 Destinations & Videos
+        </a>
+        <a href="#blog" class="w-full sm:w-auto px-8 py-4 rounded-full bg-zinaNavy-900/90 hover:bg-zinaNavy-800 text-white font-semibold text-xs uppercase tracking-wider border border-zinaGold/40 hover:border-zinaGold transition shadow-xl">
+          <i class="fa-solid fa-book-open mr-2"></i> Browse 27 Travel Guides
+        </a>
+      </div>
+
+      <!-- Trust Badges -->
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto pt-8 border-t border-white/10 text-left">
+        <div class="p-4 rounded-2xl bg-zinaNavy-900/80 border border-zinaGold/20 backdrop-blur-sm">
+          <div class="flex text-amber-400 text-xs mb-1">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+          </div>
+          <div class="font-bold text-sm text-white">5.0 TripAdvisor</div>
+          <div class="text-[11px] text-slate-400">200+ Verified 5-Star Reviews</div>
+        </div>
+
+        <div class="p-4 rounded-2xl bg-zinaNavy-900/80 border border-zinaGold/20 backdrop-blur-sm">
+          <i class="fa-solid fa-award text-zinaGold text-lg mb-1"></i>
+          <div class="font-bold text-sm text-white">25+ Years Experience</div>
+          <div class="text-[11px] text-slate-400">Deep Native Berber Roots</div>
+        </div>
+
+        <div class="p-4 rounded-2xl bg-zinaNavy-900/80 border border-zinaGold/20 backdrop-blur-sm">
+          <i class="fa-solid fa-users text-zinaGold text-lg mb-1"></i>
+          <div class="font-bold text-sm text-white">2,000+ Travelers</div>
+          <div class="text-[11px] text-slate-400">Couples, Families & Friends</div>
+        </div>
+
+        <div class="p-4 rounded-2xl bg-zinaNavy-900/80 border border-zinaGold/20 backdrop-blur-sm">
+          <i class="fa-solid fa-shield-halved text-zinaGold text-lg mb-1"></i>
+          <div class="font-bold text-sm text-white">100% Licensed & Insured</div>
+          <div class="text-[11px] text-slate-400">Official Moroccan Tourism Operator</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 12 DESTINATIONS WITH AUTHENTIC MAPS & VIDEOS ================= -->
+  <section id="destinations" class="py-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+    <div class="text-center max-w-3xl mx-auto mb-16">
+      <div class="inline-flex items-center gap-2 text-zinaGold text-xs uppercase tracking-widest font-bold mb-2" data-i18n="dest_tag">
+        <i class="fa-solid fa-location-dot"></i> Authentic Regional Portfolios
+      </div>
+      <h2 class="text-3xl sm:text-5xl font-extrabold text-white mb-4" data-i18n="dest_title">
+        Twelve Iconic Moroccan Destinations
+      </h2>
+      <div class="w-20 h-1 bg-gradient-to-r from-zinaGold to-zinaOrange mx-auto rounded-full mb-4"></div>
+      <p class="text-slate-300 text-sm sm:text-base font-normal leading-relaxed" data-i18n="dest_sub">
+        Click any destination card below to open the dedicated showcase window containing its authentic YouTube video tour, high-resolution photo gallery, interactive location map, comprehensive history, and itinerary ideas.
+      </p>
+    </div>
+
+    <!-- 10 Destination Grid Cards -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+
+      <!-- 1. CASABLANCA -->
+      <div onclick="openDestModal('casablanca')" class="zina-card rounded-3xl overflow-hidden flex flex-col cursor-pointer group">
+        <div class="relative h-64 overflow-hidden">
+          <img src="casablanca  4.jpg" alt="Real Casablanca Hassan II Mosque" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
+          <div class="absolute inset-0 bg-gradient-to-t from-[#050F1D] via-transparent to-transparent"></div>
+          <span class="absolute top-3 right-3 bg-zinaGold text-slate-950 text-[10px] uppercase font-extrabold px-3 py-1 rounded-full flex items-center gap-1 shadow-lg">
+            <i class="fa-solid fa-play text-[8px]"></i> Video & Gallery
+          </span>
+          <span class="absolute bottom-3 left-4 text-xl font-bold text-white">Casablanca</span>
+        </div>
+        <div class="p-5 flex-1 flex flex-col justify-between">
+          <p class="text-slate-300 text-xs leading-relaxed mb-4">
+            The Atlantic metropolis home to the colossal Hassan II Mosque built directly over ocean tides, Habous quarter, and Art Deco avenues.
+          </p>
+          <div class="text-zinaGold text-xs font-bold flex items-center justify-between pt-3 border-t border-white/10 group-hover:text-white transition">
+            <span>Watch Video & View Gallery</span>
+            <i class="fa-solid fa-arrow-right text-[11px] group-hover:translate-x-1 transition-transform"></i>
+          </div>
+        </div>
+      </div>
+
+      <!-- 2. RABAT -->
+      <div onclick="openDestModal('rabat')" class="zina-card rounded-3xl overflow-hidden flex flex-col cursor-pointer group">
+        <div class="relative h-64 overflow-hidden">
+          <img src="rabat1.jpg" alt="Real Rabat Kasbah des Oudayas" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
+          <div class="absolute inset-0 bg-gradient-to-t from-[#050F1D] via-transparent to-transparent"></div>
+          <span class="absolute top-3 right-3 bg-zinaGold text-slate-950 text-[10px] uppercase font-extrabold px-3 py-1 rounded-full flex items-center gap-1 shadow-lg">
+            <i class="fa-solid fa-play text-[8px]"></i> Video & Gallery
+          </span>
+          <span class="absolute bottom-3 left-4 text-xl font-bold text-white">Rabat</span>
+        </div>
+        <div class="p-5 flex-1 flex flex-col justify-between">
+          <p class="text-slate-300 text-xs leading-relaxed mb-4">
+            The royal capital with blue-walled Kasbah of the Udayas, 12th-century Hassan Tower minaret, and peaceful Chellah gardens.
+          </p>
+          <div class="text-zinaGold text-xs font-bold flex items-center justify-between pt-3 border-t border-white/10 group-hover:text-white transition">
+            <span>Watch Video & View Gallery</span>
+            <i class="fa-solid fa-arrow-right text-[11px] group-hover:translate-x-1 transition-transform"></i>
+          </div>
+        </div>
+      </div>
+
+      <!-- 3. FES -->
+      <div onclick="openDestModal('fes')" class="zina-card rounded-3xl overflow-hidden flex flex-col cursor-pointer group">
+        <div class="relative h-64 overflow-hidden">
+          <img src="fez 6.jpg" alt="Real Fes Chouara leather tanneries" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
+          <div class="absolute inset-0 bg-gradient-to-t from-[#050F1D] via-transparent to-transparent"></div>
+          <span class="absolute top-3 right-3 bg-zinaGold text-slate-950 text-[10px] uppercase font-extrabold px-3 py-1 rounded-full flex items-center gap-1 shadow-lg">
+            <i class="fa-solid fa-play text-[8px]"></i> Video & Gallery
+          </span>
+          <span class="absolute bottom-3 left-4 text-xl font-bold text-white">Fes (Fez)</span>
+        </div>
+        <div class="p-5 flex-1 flex flex-col justify-between">
+          <p class="text-slate-300 text-xs leading-relaxed mb-4">
+            Spiritual and intellectual capital with 9,000 medieval medina alleys, ancient leather tanneries, and Al-Qarawiyyin University.
+          </p>
+          <div class="text-zinaGold text-xs font-bold flex items-center justify-between pt-3 border-t border-white/10 group-hover:text-white transition">
+            <span>Watch Video & View Gallery</span>
+            <i class="fa-solid fa-arrow-right text-[11px] group-hover:translate-x-1 transition-transform"></i>
+          </div>
+        </div>
+      </div>
+
+      <!-- 4. MEKNES -->
+      <div onclick="openDestModal('meknes')" class="zina-card rounded-3xl overflow-hidden flex flex-col cursor-pointer group">
+        <div class="relative h-64 overflow-hidden">
+          <img src="meknes 4.jpg" alt="Real Meknes Bab Mansour" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
+          <div class="absolute inset-0 bg-gradient-to-t from-[#050F1D] via-transparent to-transparent"></div>
+          <span class="absolute top-3 right-3 bg-zinaGold text-slate-950 text-[10px] uppercase font-extrabold px-3 py-1 rounded-full flex items-center gap-1 shadow-lg">
+            <i class="fa-solid fa-play text-[8px]"></i> Video & Gallery
+          </span>
+          <span class="absolute bottom-3 left-4 text-xl font-bold text-white">Meknes</span>
+        </div>
+        <div class="p-5 flex-1 flex flex-col justify-between">
+          <p class="text-slate-300 text-xs leading-relaxed mb-4">
+            The grand imperial capital of Sultan Moulay Ismail with Bab Mansour gate, royal granaries, and nearby Roman Volubilis.
+          </p>
+          <div class="text-zinaGold text-xs font-bold flex items-center justify-between pt-3 border-t border-white/10 group-hover:text-white transition">
+            <span>Watch Video & View Gallery</span>
+            <i class="fa-solid fa-arrow-right text-[11px] group-hover:translate-x-1 transition-transform"></i>
+          </div>
+        </div>
+      </div>
+
+      <!-- 5. MARRAKECH -->
+      <div onclick="openDestModal('marrakech')" class="zina-card rounded-3xl overflow-hidden flex flex-col cursor-pointer group border-zinaGold/40">
+        <div class="relative h-64 overflow-hidden">
+          <img src="marrakech 4.jpg" alt="Real Marrakech Koutoubia minaret" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
+          <div class="absolute inset-0 bg-gradient-to-t from-[#050F1D] via-transparent to-transparent"></div>
+          <span class="absolute top-3 right-3 bg-gradient-to-r from-zinaGold to-zinaOrange text-slate-950 text-[10px] uppercase font-extrabold px-3 py-1 rounded-full flex items-center gap-1 shadow-lg">
+            <i class="fa-solid fa-fire text-[8px]"></i> The Red City
+          </span>
+          <span class="absolute bottom-3 left-4 text-xl font-bold text-white">Marrakech</span>
+        </div>
+        <div class="p-5 flex-1 flex flex-col justify-between">
+          <p class="text-slate-300 text-xs leading-relaxed mb-4">
+            The legendary ochre city at the foot of the High Atlas, celebrated for Jemaa el-Fnaa square, Bahia Palace, and Majorelle Garden.
+          </p>
+          <div class="text-zinaGold text-xs font-bold flex items-center justify-between pt-3 border-t border-white/10 group-hover:text-white transition">
+            <span>Watch Video & View Gallery</span>
+            <i class="fa-solid fa-arrow-right text-[11px] group-hover:translate-x-1 transition-transform"></i>
+          </div>
+        </div>
+      </div>
+
+      <!-- 6. ESSAOUIRA -->
+      <div onclick="openDestModal('essaouira')" class="zina-card rounded-3xl overflow-hidden flex flex-col cursor-pointer group border-zinaGold/40">
+        <div class="relative h-64 overflow-hidden">
+          <img src="Essaouira 4.jpg" alt="Real Essaouira sea ramparts" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
+          <div class="absolute inset-0 bg-gradient-to-t from-[#050F1D] via-transparent to-transparent"></div>
+          <span class="absolute top-3 right-3 bg-zinaGold text-slate-950 text-[10px] uppercase font-extrabold px-3 py-1 rounded-full flex items-center gap-1 shadow-lg">
+            <i class="fa-solid fa-water text-[8px]"></i> Atlantic Pearl
+          </span>
+          <span class="absolute bottom-3 left-4 text-xl font-bold text-white">Essaouira (Mogador)</span>
+        </div>
+        <div class="p-5 flex-1 flex flex-col justify-between">
+          <p class="text-slate-300 text-xs leading-relaxed mb-4">
+            18th-century sea fortifications with bronze cannons, traditional blue fishing harbor, art riads, and Atlantic tradewinds.
+          </p>
+          <div class="text-zinaGold text-xs font-bold flex items-center justify-between pt-3 border-t border-white/10 group-hover:text-white transition">
+            <span>Watch Video & View Gallery</span>
+            <i class="fa-solid fa-arrow-right text-[11px] group-hover:translate-x-1 transition-transform"></i>
+          </div>
+        </div>
+      </div>
+
+      <!-- 7. OUARZAZATE -->
+      <div onclick="openDestModal('ouarzazate')" class="zina-card rounded-3xl overflow-hidden flex flex-col cursor-pointer group">
+        <div class="relative h-64 overflow-hidden">
+          <img src="ourzazate 1.jpg" alt="Real Ksar Ait Benhaddou" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
+          <div class="absolute inset-0 bg-gradient-to-t from-[#050F1D] via-transparent to-transparent"></div>
+          <span class="absolute top-3 right-3 bg-zinaGold text-slate-950 text-[10px] uppercase font-extrabold px-3 py-1 rounded-full flex items-center gap-1 shadow-lg">
+            <i class="fa-solid fa-play text-[8px]"></i> Video & Gallery
+          </span>
+          <span class="absolute bottom-3 left-4 text-xl font-bold text-white">Ouarzazate</span>
+        </div>
+        <div class="p-5 flex-1 flex flex-col justify-between">
+          <p class="text-slate-300 text-xs leading-relaxed mb-4">
+            Hollywood of Africa and desert gateway, famous for UNESCO earthen Ksar Ait Benhaddou and international film sets.
+          </p>
+          <div class="text-zinaGold text-xs font-bold flex items-center justify-between pt-3 border-t border-white/10 group-hover:text-white transition">
+            <span>Watch Video & View Gallery</span>
+            <i class="fa-solid fa-arrow-right text-[11px] group-hover:translate-x-1 transition-transform"></i>
+          </div>
+        </div>
+      </div>
+
+      <!-- 8. TINGHIR -->
+      <div onclick="openDestModal('tinghir')" class="zina-card rounded-3xl overflow-hidden flex flex-col cursor-pointer group">
+        <div class="relative h-64 overflow-hidden">
+          <img src="tinghir 4.jpg" alt="Real Todra Gorge Tinghir" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
+          <div class="absolute inset-0 bg-gradient-to-t from-[#050F1D] via-transparent to-transparent"></div>
+          <span class="absolute top-3 right-3 bg-zinaGold text-slate-950 text-[10px] uppercase font-extrabold px-3 py-1 rounded-full flex items-center gap-1 shadow-lg">
+            <i class="fa-solid fa-play text-[8px]"></i> Video & Gallery
+          </span>
+          <span class="absolute bottom-3 left-4 text-xl font-bold text-white">Tinghir (Todra Gorge)</span>
+        </div>
+        <div class="p-5 flex-1 flex flex-col justify-between">
+          <p class="text-slate-300 text-xs leading-relaxed mb-4">
+            Towering 300-meter vertical limestone canyon walls at Todra Gorge, crystal mountain streams, and vast date-palm river oases.
+          </p>
+          <div class="text-zinaGold text-xs font-bold flex items-center justify-between pt-3 border-t border-white/10 group-hover:text-white transition">
+            <span>Watch Video & View Gallery</span>
+            <i class="fa-solid fa-arrow-right text-[11px] group-hover:translate-x-1 transition-transform"></i>
+          </div>
+        </div>
+      </div>
+
+      <!-- 9. AGADIR -->
+      <div onclick="openDestModal('agadir')" class="zina-card rounded-3xl overflow-hidden flex flex-col cursor-pointer group">
+        <div class="relative h-64 overflow-hidden">
+          <img src="agadir 3.jpg" alt="Real Agadir beach" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
+          <div class="absolute inset-0 bg-gradient-to-t from-[#050F1D] via-transparent to-transparent"></div>
+          <span class="absolute top-3 right-3 bg-zinaGold text-slate-950 text-[10px] uppercase font-extrabold px-3 py-1 rounded-full flex items-center gap-1 shadow-lg">
+            <i class="fa-solid fa-play text-[8px]"></i> Video & Gallery
+          </span>
+          <span class="absolute bottom-3 left-4 text-xl font-bold text-white">Agadir</span>
+        </div>
+        <div class="p-5 flex-1 flex flex-col justify-between">
+          <p class="text-slate-300 text-xs leading-relaxed mb-4">
+            Over 300 days of Atlantic sunshine, clean beach promenades, fresh seafood dining, and excursions to Paradise Valley.
+          </p>
+          <div class="text-zinaGold text-xs font-bold flex items-center justify-between pt-3 border-t border-white/10 group-hover:text-white transition">
+            <span>Watch Video & View Gallery</span>
+            <i class="fa-solid fa-arrow-right text-[11px] group-hover:translate-x-1 transition-transform"></i>
+          </div>
+        </div>
+      </div>
+
+      <!-- 10. MERZOUGA -->
+      <div onclick="openDestModal('merzouga')" class="zina-card rounded-3xl overflow-hidden flex flex-col cursor-pointer group border-zinaGold/70 ring-1 ring-zinaGold/40">
+        <div class="relative h-64 overflow-hidden">
+          <img src="merzouga5.jpg" alt="Real Merzouga Erg Chebbi dunes" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
+          <div class="absolute inset-0 bg-gradient-to-t from-[#050F1D] via-transparent to-transparent"></div>
+          <span class="absolute top-3 right-3 bg-gradient-to-r from-zinaGold to-zinaOrange text-slate-950 text-[10px] uppercase font-extrabold px-3 py-1 rounded-full flex items-center gap-1 shadow-lg">
+            <i class="fa-solid fa-crown text-[8px]"></i> Signature Sahara
+          </span>
+          <span class="absolute bottom-3 left-4 text-xl font-bold text-white">Merzouga (Sahara)</span>
+        </div>
+        <div class="p-5 flex-1 flex flex-col justify-between">
+          <p class="text-slate-300 text-xs leading-relaxed mb-4">
+            The grand 150m Erg Chebbi golden sand dunes. Camel rides, Berber music by the campfire, and luxury private desert camps under starry skies.
+          </p>
+          <div class="text-zinaGold text-xs font-bold flex items-center justify-between pt-3 border-t border-white/10 group-hover:text-white transition">
+            <span>Watch Video & View Gallery</span>
+            <i class="fa-solid fa-arrow-right text-[11px] group-hover:translate-x-1 transition-transform"></i>
+          </div>
+        </div>
+      </div>
+
+      <!-- 11. CHEFCHAOUEN (The Blue Pearl) -->
+      <div onclick="openDestModal('chefchaouen')" class="zina-card rounded-3xl overflow-hidden flex flex-col cursor-pointer group border-zinaGold/40">
+        <div class="relative h-64 overflow-hidden">
+          <img src="Chefchaouen3.jpg" 
+               alt="Real Chefchaouen blue medina alleyways and potted flowers" 
+               class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
+          <div class="absolute inset-0 bg-gradient-to-t from-[#050F1D] via-transparent to-transparent"></div>
+          <span class="absolute top-3 right-3 bg-gradient-to-r from-sky-400 to-zinaGold text-slate-950 text-[10px] uppercase font-extrabold px-3 py-1 rounded-full flex items-center gap-1 shadow-lg">
+            <i class="fa-solid fa-mountain-sun text-[8px]"></i> The Blue Pearl
+          </span>
+          <span class="absolute bottom-3 left-4 text-xl font-bold text-white">Chefchaouen</span>
+        </div>
+        <div class="p-5 flex-1 flex flex-col justify-between">
+          <p class="text-slate-300 text-xs leading-relaxed mb-4">
+            The dreamy indigo-washed jewel in the Rif Mountains with Outa el-Hammam square, 15th-century Kasbah, and hilltop Spanish Mosque.
+          </p>
+          <div class="text-zinaGold text-xs font-bold flex items-center justify-between pt-3 border-t border-white/10 group-hover:text-white transition">
+            <span>Watch Video & View Gallery</span>
+            <i class="fa-solid fa-arrow-right text-[11px] group-hover:translate-x-1 transition-transform"></i>
+          </div>
+        </div>
+      </div>
+
+      <!-- 12. TANGIER (Gateway of Africa) -->
+      <div onclick="openDestModal('tangier')" class="zina-card rounded-3xl overflow-hidden flex flex-col cursor-pointer group border-zinaGold/40">
+        <div class="relative h-64 overflow-hidden">
+          <img src="tanger2.png" 
+               alt="Real Tangier coastal Kasbah overlooking Strait of Gibraltar" 
+               class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
+          <div class="absolute inset-0 bg-gradient-to-t from-[#050F1D] via-transparent to-transparent"></div>
+          <span class="absolute top-3 right-3 bg-zinaGold text-slate-950 text-[10px] uppercase font-extrabold px-3 py-1 rounded-full flex items-center gap-1 shadow-lg">
+            <i class="fa-solid fa-compass text-[8px]"></i> Strait Gateway
+          </span>
+          <span class="absolute bottom-3 left-4 text-xl font-bold text-white">Tangier (Tanger)</span>
+        </div>
+        <div class="p-5 flex-1 flex flex-col justify-between">
+          <p class="text-slate-300 text-xs leading-relaxed mb-4">
+            The mythical junction where Atlantic meets Mediterranean, celebrated for its clifftop Kasbah, Caves of Hercules, and historic Café Hafa.
+          </p>
+          <div class="text-zinaGold text-xs font-bold flex items-center justify-between pt-3 border-t border-white/10 group-hover:text-white transition">
+            <span>Watch Video & View Gallery</span>
+            <i class="fa-solid fa-arrow-right text-[11px] group-hover:translate-x-1 transition-transform"></i>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= TRAVEL BLOG ================= -->
+  <section id="blog" class="py-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+    <div class="text-center max-w-3xl mx-auto mb-12">
+      <div class="inline-flex items-center gap-2 text-zinaGold text-xs uppercase tracking-widest font-bold mb-2" data-i18n="dest_tag">
+        <i class="fa-solid fa-feather-pointed"></i> The Zina Travel Journal
+      </div>
+      <h2 class="text-3xl sm:text-5xl font-extrabold text-white mb-4" data-i18n="blog_title">
+        Travel Stories, Expert Answers & Morocco Guides
+      </h2>
+      <div class="w-20 h-1 bg-gradient-to-r from-zinaGold to-zinaOrange mx-auto rounded-full mb-4"></div>
+      <p class="text-slate-300 text-sm sm:text-base font-normal leading-relaxed" data-i18n="blog_sub">
+        Every trip starts with questions. Browse our in-depth guides below. Click any card to open a full window answering each question with complete details, packing advice, itineraries, and local Berber insights.
+      </p>
+    </div>
+
+    <!-- Category Filter Buttons & Real Search -->
+    <div class="flex flex-col md:flex-row items-center justify-between gap-4 mb-10 pb-6 border-b border-white/10">
+      <div class="flex items-center flex-wrap gap-2 text-xs font-semibold">
+        <button onclick="setBlogCategory('all')" class="blog-filter-btn active px-4 py-2 rounded-full bg-zinaGold text-slate-950 font-bold transition">All Articles (27)</button>
+        <button onclick="setBlogCategory('planning')" class="blog-filter-btn px-4 py-2 rounded-full bg-zinaNavy-900 border border-zinaGold/30 text-slate-200 hover:text-zinaGold transition">Planning & Guides</button>
+        <button onclick="setBlogCategory('desert')" class="blog-filter-btn px-4 py-2 rounded-full bg-zinaNavy-900 border border-zinaGold/30 text-slate-200 hover:text-zinaGold transition">Sahara & Adventure</button>
+        <button onclick="setBlogCategory('culture')" class="blog-filter-btn px-4 py-2 rounded-full bg-zinaNavy-900 border border-zinaGold/30 text-slate-200 hover:text-zinaGold transition">Culture & Food</button>
+        <button onclick="setBlogCategory('safety')" class="blog-filter-btn px-4 py-2 rounded-full bg-zinaNavy-900 border border-zinaGold/30 text-slate-200 hover:text-zinaGold transition">Safety & Seasons</button>
+      </div>
+
+      <div class="relative w-full md:w-72">
+        <i class="fa-solid fa-magnifying-glass absolute left-3.5 top-3 text-slate-400 text-xs"></i>
+        <input type="text" id="blogInputSearch" oninput="executeBlogSearch(this.value)" placeholder="Search 27 guides..." class="w-full pl-9 pr-4 py-2 text-xs rounded-full bg-zinaNavy-900 border border-white/10 text-white placeholder-slate-400 focus:outline-none focus:border-zinaGold transition">
+      </div>
+    </div>
+
+    <!-- 27 Blog Articles Injected via JS -->
+    <div id="blogCardsGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"></div>
+  </section>
+
+  <!-- ================= WHY CHOOSE US ================= -->
+  <section id="why-us" class="py-24 bg-zinaNavy-950/70 border-t border-zinaGold/20 px-4 sm:px-6 lg:px-8">
+    <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+      <div>
+        <div class="inline-flex items-center gap-2 text-zinaGold text-xs uppercase tracking-widest font-bold mb-3" data-i18n="why_tag">
+          <i class="fa-solid fa-certificate"></i> The Zina Distinction
+        </div>
+        <h2 class="text-3xl sm:text-5xl font-extrabold text-white mb-6 leading-tight" data-i18n="why_h2">
+          Decades of Local Heritage, Unrivaled Luxury & Sincere Care
+        </h2>
+        <p class="text-slate-300 text-sm sm:text-base leading-relaxed mb-6 font-normal">
+          At <strong class="text-white">Zina Morocco Tours</strong>, our drivers and guides are native Moroccans whose hospitality is rooted in generations of tradition. We provide modern, climate-controlled 4x4 vehicles, boutique riads with historic charm, and licensed guides who turn travel into lifelong memories.
+        </p>
+
+        <!-- Stats Grid -->
+        <div class="grid grid-cols-2 gap-6 pt-4 border-t border-zinaGold/20">
+          <div>
+            <div class="text-3xl font-extrabold text-zinaGold">5.0 ★</div>
+            <div class="font-bold text-white text-xs sm:text-sm mt-1">Tripadvisor Rating</div>
+            <div class="text-[11px] text-slate-400 mt-0.5">200+ verified five-star reviews</div>
+          </div>
+          <div>
+            <div class="text-3xl font-extrabold text-zinaGold">25+</div>
+            <div class="font-bold text-white text-xs sm:text-sm mt-1">Years Experience</div>
+            <div class="text-[11px] text-slate-400 mt-0.5">Berber family roots across Morocco</div>
+          </div>
+          <div>
+            <div class="text-3xl font-extrabold text-zinaGold">2,000+</div>
+            <div class="font-bold text-white text-xs sm:text-sm mt-1">Travelers Hosted</div>
+            <div class="text-[11px] text-slate-400 mt-0.5">Honeymoons, families & private groups</div>
+          </div>
+          <div>
+            <div class="text-3xl font-extrabold text-zinaGold">24 / 7</div>
+            <div class="font-bold text-white text-xs sm:text-sm mt-1">Concierge Care</div>
+            <div class="text-[11px] text-slate-400 mt-0.5">Direct support every step of the journey</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="relative">
+        <div class="zina-card p-4 rounded-3xl border-zinaGold/40 shadow-2xl relative overflow-hidden group">
+          <img src="morocco.jpeg" 
+               alt="Real Berber hospitality across Morocco" 
+               class="w-full h-[460px] object-cover rounded-2xl group-hover:scale-105 transition-transform duration-700" loading="lazy" />
+          <div class="absolute inset-0 bg-gradient-to-t from-[#050F1D] via-transparent to-transparent rounded-2xl"></div>
+          
+          <div class="absolute bottom-6 left-6 right-6 p-4 rounded-2xl bg-zinaNavy-900/90 border border-zinaGold/40 backdrop-blur-md flex items-center justify-between">
+            <div>
+              <div class="text-[10px] text-zinaGold font-bold uppercase tracking-wider">Direct Trip Inquiries</div>
+              <div class="text-xs sm:text-sm font-semibold text-white">zinamoroccotours@gmail.com</div>
+            </div>
+            <a href="#contact" class="px-4 py-2 rounded-xl bg-zinaGold text-slate-950 text-xs font-bold uppercase tracking-wider hover:bg-zinaGold-400 transition">
+              Write Us
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= TESTIMONIALS ================= -->
+  <section id="testimonials" class="py-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+    <div class="text-center max-w-3xl mx-auto mb-16">
+      <div class="inline-flex items-center gap-2 text-zinaGold text-xs uppercase tracking-widest font-bold mb-2" data-i18n="dest_tag">
+        <i class="fa-solid fa-quote-left"></i> Verified Traveler Reviews
+      </div>
+      <h2 class="text-3xl sm:text-5xl font-extrabold text-white mb-4" data-i18n="rev_title">
+        What Our Travelers Say
+      </h2>
+      <div class="w-20 h-1 bg-gradient-to-r from-zinaGold to-zinaOrange mx-auto rounded-full mb-4"></div>
+      <p class="text-slate-300 text-sm sm:text-base font-normal">
+        Real feedback from travelers who explored the Sahara dunes and Moroccan imperial cities with our local team.
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div class="zina-card p-8 rounded-3xl flex flex-col justify-between">
+        <div>
+          <div class="flex text-amber-400 text-sm mb-4">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+          </div>
+          <p class="text-slate-200 text-xs sm:text-sm leading-relaxed mb-6 font-normal">
+            "The desert experience in Merzouga was pure magic. Our guide Hamid navigated the Atlas passes effortlessly, took us to authentic Berber villages, and organized the most lavish luxury camp in Erg Chebbi under the stars."
+          </p>
+        </div>
+        <div class="flex items-center gap-3 pt-4 border-t border-white/10">
+          <div class="w-10 h-10 rounded-full bg-gradient-to-br from-zinaGold to-zinaOrange flex items-center justify-center font-bold text-slate-950 text-xs">
+            JD
+          </div>
+          <div>
+            <div class="text-sm font-bold text-white">Jonathan & Sarah D.</div>
+            <div class="text-[11px] text-slate-400">United States • Merzouga & Atlas</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="zina-card p-8 rounded-3xl flex flex-col justify-between">
+        <div>
+          <div class="flex text-amber-400 text-sm mb-4">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+          </div>
+          <p class="text-slate-200 text-xs sm:text-sm leading-relaxed mb-6 font-normal">
+            "We sent a message through the website and got back a thoughtful custom itinerary within hours. Visiting Casablanca, Rabat, Meknes, and Fes was completely stress-free, deeply educational, and tailored to our pace."
+          </p>
+        </div>
+        <div class="flex items-center gap-3 pt-4 border-t border-white/10">
+          <div class="w-10 h-10 rounded-full bg-gradient-to-br from-zinaGold to-zinaOrange flex items-center justify-center font-bold text-slate-950 text-xs">
+            ML
+          </div>
+          <div>
+            <div class="text-sm font-bold text-white">Marie & Luc Laurent</div>
+            <div class="text-[11px] text-slate-400">France • Imperial Capitals</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="zina-card p-8 rounded-3xl flex flex-col justify-between">
+        <div>
+          <div class="flex text-amber-400 text-sm mb-4">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+          </div>
+          <p class="text-slate-200 text-xs sm:text-sm leading-relaxed mb-6 font-normal">
+            "Hiking Todra Gorge in Tinghir and watching the Atlantic sunset in Agadir was breathtaking. Having our own private 4x4 and driver made all the difference on long desert journeys."
+          </p>
+        </div>
+        <div class="flex items-center gap-3 pt-4 border-t border-white/10">
+          <div class="w-10 h-10 rounded-full bg-gradient-to-br from-zinaGold to-zinaOrange flex items-center justify-center font-bold text-slate-950 text-xs">
+            TK
+          </div>
+          <div>
+            <div class="text-sm font-bold text-white">Thomas & Katrin</div>
+            <div class="text-[11px] text-slate-400">Germany • Grand South Morocco</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CONTACT FORM ================= -->
+  <section id="contact" class="py-24 px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
+    <div class="zina-card rounded-3xl p-6 sm:p-12 border-zinaGold/40 shadow-2xl relative overflow-hidden">
+      
+      <div class="text-center max-w-2xl mx-auto mb-10">
+        <div class="inline-flex items-center gap-2 text-zinaGold text-xs uppercase tracking-widest font-bold mb-2" data-i18n="form_tag">
+          <i class="fa-solid fa-envelope-open-text"></i> Direct Contact
+        </div>
+        <h2 class="text-3xl sm:text-5xl font-extrabold text-white mb-3" data-i18n="form_title">
+          Send Us A Message
+        </h2>
+        <div class="w-20 h-1 bg-gradient-to-r from-zinaGold to-zinaOrange mx-auto rounded-full mb-4"></div>
+        <p class="text-slate-300 text-xs sm:text-sm font-normal leading-relaxed" data-i18n="form_sub">
+          Have questions about Morocco or want to plan your vacation? Write to us below. Your message will be formatted and addressed directly to <strong>zinamoroccotours@gmail.com</strong>.
+        </p>
+      </div>
+
+      <form id="zinaContactForm" action="https://formspree.io/f/xjygnewa" method="POST" onsubmit="handleFormspreeSubmit(event)" class="space-y-6">
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+          <div>
+            <label for="formFullName" class="block text-xs uppercase tracking-wider text-slate-300 mb-2 font-semibold" data-i18n="f_name">
+              Full Name *
+            </label>
+            <input type="text" name="name" id="formFullName" required placeholder="Your full name" class="w-full bg-zinaNavy-950/90 border border-white/10 focus:border-zinaGold rounded-2xl px-4 py-3.5 text-sm text-white placeholder-slate-500 focus:outline-none transition">
+          </div>
+          <div>
+            <label for="formEmailAddress" class="block text-xs uppercase tracking-wider text-slate-300 mb-2 font-semibold" data-i18n="f_email">
+              Email Address *
+            </label>
+            <input type="email" name="email" id="formEmailAddress" required placeholder="your.email@example.com" class="w-full bg-zinaNavy-950/90 border border-white/10 focus:border-zinaGold rounded-2xl px-4 py-3.5 text-sm text-white placeholder-slate-500 focus:outline-none transition">
+          </div>
+        </div>
+
+        <div>
+          <label for="formSubject" class="block text-xs uppercase tracking-wider text-slate-300 mb-2 font-semibold" data-i18n="f_subject">
+            Subject *
+          </label>
+          <input type="text" name="subject" id="formSubject" required placeholder="e.g. Planning a 10-day tour from Casablanca to Merzouga & Marrakech" class="w-full bg-zinaNavy-950/90 border border-white/10 focus:border-zinaGold rounded-2xl px-4 py-3.5 text-sm text-white placeholder-slate-500 focus:outline-none transition">
+        </div>
+
+        <div>
+          <label for="formDescription" class="block text-xs uppercase tracking-wider text-slate-300 mb-2 font-semibold" data-i18n="f_message">
+            Message / Description *
+          </label>
+          <textarea name="message" id="formDescription" required rows="6" placeholder="Write anything here: preferred dates, destinations you'd love to visit (Casablanca, Rabat, Fes, Meknes, Marrakech, Essaouira, Ouarzazate, Tinghir, Agadir, Merzouga), group size, accommodation preferences, or specific questions..." class="w-full bg-zinaNavy-950/90 border border-white/10 focus:border-zinaGold rounded-2xl px-4 py-3.5 text-sm text-white placeholder-slate-500 focus:outline-none transition"></textarea>
+        </div>
+
+        <div class="text-center pt-2">
+          <button type="submit" class="w-full sm:w-auto px-12 py-4 rounded-full bg-gradient-to-r from-zinaGold to-zinaOrange text-slate-950 font-bold text-xs uppercase tracking-wider transition-all shadow-xl shadow-zinaGold/30 hover:scale-105 flex items-center justify-center gap-2 mx-auto">
+            <i class="fa-solid fa-paper-plane"></i>
+            <span data-i18n="f_send_btn">Send Message to Zina Morocco Tours</span>
+          </button>
+          <p class="text-xs text-slate-400 mt-3" data-i18n="f_target_note">
+            Directly delivered to <span class="text-zinaGold font-medium">zinamoroccotours@gmail.com</span>
+          </p>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="bg-zinaNavy-950 border-t border-zinaGold/20 pt-16 pb-12 px-4 sm:px-6 lg:px-8">
+    <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
+      
+      <!-- Brand & Socials -->
+      <div class="space-y-4">
+        <div>
+          <h3 class="text-lg font-extrabold text-white tracking-wide font-display mb-1">ZINA MOROCCO TOURS</h3>
+          <p class="text-[11px] text-zinaGold font-semibold uppercase tracking-widest">Luxury Private Tours & Sahara Expeditions</p>
+        </div>
+        <p class="text-xs text-slate-400 leading-relaxed font-normal">
+          Licensed Moroccan tour company delivering handcrafted journeys, imperial city discoveries, and Sahara desert camp adventures in Erg Chebbi.
+        </p>
+
+        <!-- Social Media Apps -->
+        <div class="pt-2">
+          <div class="text-xs font-semibold text-slate-300 uppercase tracking-wider mb-2">Connect With Us:</div>
+          <div class="flex items-center gap-2">
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="w-9 h-9 rounded-full bg-zinaNavy-900 border border-zinaGold/30 text-slate-300 hover:text-zinaGold hover:border-zinaGold flex items-center justify-center transition" title="Facebook">
+              <i class="fa-brands fa-facebook-f text-xs"></i>
+            </a>
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="w-9 h-9 rounded-full bg-zinaNavy-900 border border-zinaGold/30 text-slate-300 hover:text-zinaGold hover:border-zinaGold flex items-center justify-center transition" title="Instagram">
+              <i class="fa-brands fa-instagram text-xs"></i>
+            </a>
+            <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer" class="w-9 h-9 rounded-full bg-zinaNavy-900 border border-zinaGold/30 text-slate-300 hover:text-zinaGold hover:border-zinaGold flex items-center justify-center transition" title="TikTok">
+              <i class="fa-brands fa-tiktok text-xs"></i>
+            </a>
+            <button onclick="openSocialPopup('wechat')" class="w-9 h-9 rounded-full bg-zinaNavy-900 border border-zinaGold/30 text-slate-300 hover:text-zinaGold hover:border-zinaGold flex items-center justify-center transition" title="WeChat (微信)">
+              <i class="fa-brands fa-weixin text-xs"></i>
+            </button>
+            <button onclick="openSocialPopup('rednote')" class="w-9 h-9 rounded-full bg-zinaNavy-900 border border-zinaGold/30 text-slate-300 hover:text-zinaGold hover:border-zinaGold flex items-center justify-center transition" title="RedNote (小红书)">
+              <i class="fa-solid fa-book-bookmark text-xs"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Destinations Links -->
+      <div>
+        <h4 class="text-sm font-bold text-white uppercase tracking-wider mb-4 border-b border-zinaGold/30 pb-2">
+          Destinations
+        </h4>
+        <ul class="text-xs text-slate-400 space-y-2 font-medium">
+          <li><button onclick="openDestModal('casablanca')" class="hover:text-zinaGold transition">Casablanca & Hassan II</button></li>
+          <li><button onclick="openDestModal('rabat')" class="hover:text-zinaGold transition">Rabat Royal Kasbah</button></li>
+          <li><button onclick="openDestModal('fes')" class="hover:text-zinaGold transition">Fes el-Bali Medina</button></li>
+          <li><button onclick="openDestModal('meknes')" class="hover:text-zinaGold transition">Meknes & Volubilis</button></li>
+          <li><button onclick="openDestModal('marrakech')" class="hover:text-zinaGold transition">Marrakech & Majorelle</button></li>
+          <li><button onclick="openDestModal('essaouira')" class="hover:text-zinaGold transition">Essaouira & Sea Ramparts</button></li>
+          <li><button onclick="openDestModal('ouarzazate')" class="hover:text-zinaGold transition">Ouarzazate & Film Studios</button></li>
+          <li><button onclick="openDestModal('tinghir')" class="hover:text-zinaGold transition">Tinghir & Todra Gorge</button></li>
+          <li><button onclick="openDestModal('agadir')" class="hover:text-zinaGold transition">Agadir Atlantic Coast</button></li>
+          <li><button onclick="openDestModal('merzouga')" class="hover:text-zinaGold text-zinaGold font-bold transition">Merzouga Sahara Dunes</button></li>
+          <li><button onclick="openDestModal('chefchaouen')" class="hover:text-zinaGold text-sky-400 font-bold transition">Chefchaouen (Blue Pearl)</button></li>
+          <li><button onclick="openDestModal('tangier')" class="hover:text-zinaGold transition">Tangier (Strait of Gibraltar)</button></li>
+        </ul>
+      </div>
+
+      <!-- Navigation Links -->
+      <div>
+        <h4 class="text-sm font-bold text-white uppercase tracking-wider mb-4 border-b border-zinaGold/30 pb-2">
+          Navigation
+        </h4>
+        <ul class="text-xs text-slate-400 space-y-2 font-medium">
+          <li><a href="#hero" class="hover:text-zinaGold transition" data-i18n="nav_home">Home</a></li>
+          <li><a href="#destinations" class="hover:text-zinaGold transition" data-i18n="nav_destinations">Destinations</a></li>
+          <li><a href="#blog" class="hover:text-zinaGold transition" data-i18n="nav_blog">Travel Blog (27 Guides)</a></li>
+          <li><a href="#why-us" class="hover:text-zinaGold transition" data-i18n="nav_why_us">Why Us</a></li>
+          <li><a href="#testimonials" class="hover:text-zinaGold transition" data-i18n="nav_reviews">Guest Reviews</a></li>
+          <li><a href="#contact" class="hover:text-zinaGold transition" data-i18n="nav_contact">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact Info -->
+      <div>
+        <h4 class="text-sm font-bold text-white uppercase tracking-wider mb-4 border-b border-zinaGold/30 pb-2">
+          Direct Inquiries
+        </h4>
+        <div class="text-xs text-slate-400 space-y-3 font-normal">
+          <p class="flex items-start gap-2.5">
+            <i class="fa-solid fa-envelope text-zinaGold mt-0.5"></i>
+            <span>
+              <strong class="text-white">Email Address:</strong><br>
+              <a href="mailto:zinamoroccotours@gmail.com" class="text-zinaGold hover:underline">zinamoroccotours@gmail.com</a>
+            </span>
+          </p>
+          <p class="flex items-start gap-2.5">
+            <i class="fa-solid fa-map-pin text-zinaGold mt-0.5"></i>
+            <span>
+              <strong class="text-white">Operation Hubs:</strong><br>
+              Merzouga, Fes, Marrakech & Casablanca
+            </span>
+          </p>
+          <p class="flex items-start gap-2.5">
+            <i class="fa-solid fa-clock text-zinaGold mt-0.5"></i>
+            <span>
+              <strong class="text-white">Support:</strong><br>
+              24/7 Concierge for In-Country Travelers
+            </span>
+          </p>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="max-w-7xl mx-auto pt-8 border-t border-white/10 flex flex-col sm:flex-row justify-between items-center text-xs text-slate-500 gap-4">
+      <div>© 2026 Zina Morocco Tours. All rights reserved.</div>
+      <div class="flex items-center gap-3">
+        <span>Ministry Licensed Operator</span>
+        <span>•</span>
+        <span>Private Air-Conditioned Fleet</span>
+        <span>•</span>
+        <span>Luxury Sahara Glamping</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ================= DESTINATION DETAIL MODAL ================= -->
+  <div id="destDetailModal" class="fixed inset-0 bg-black/90 z-50 hidden overflow-y-auto backdrop-blur-xl p-4 sm:p-6 lg:p-10">
+    <div class="max-w-5xl mx-auto bg-zinaNavy-950 border border-zinaGold/50 rounded-3xl overflow-hidden shadow-2xl relative my-6 animate-modal-pop">
+      <button onclick="closeDestModal()" class="absolute top-5 right-5 z-20 w-11 h-11 rounded-full bg-zinaNavy-900/90 text-white hover:text-zinaGold hover:scale-110 border border-zinaGold/40 flex items-center justify-center transition shadow-lg">
+        <i class="fa-solid fa-xmark text-lg"></i>
+      </button>
+
+      <div class="relative h-72 sm:h-96 w-full overflow-hidden">
+        <img id="destModalHeroImg" src="" alt="Destination" class="w-full h-full object-cover filter brightness-[0.7]" />
+        <div class="absolute inset-0 bg-gradient-to-t from-zinaNavy-950 via-zinaNavy-950/40 to-transparent"></div>
+        <div class="absolute bottom-6 left-6 sm:left-10 right-6">
+          <span id="destModalBadge" class="bg-zinaGold text-slate-950 text-[10px] font-bold uppercase tracking-widest px-3 py-1 rounded-full inline-block mb-2"></span>
+          <h2 id="destModalTitle" class="text-3xl sm:text-5xl font-extrabold text-white"></h2>
+          <p id="destModalSubtitle" class="text-amber-200 text-xs sm:text-sm mt-1"></p>
+        </div>
+      </div>
+
+      <div class="p-6 sm:p-10 space-y-10">
+        <div>
+          <div class="flex items-center gap-2 text-zinaGold text-xs uppercase tracking-widest font-bold mb-3">
+            <i class="fa-solid fa-circle-play"></i> Official Destination Video Showcase
+          </div>
+          <div class="relative rounded-2xl overflow-hidden border border-zinaGold/40 aspect-video bg-black shadow-2xl">
+            <iframe id="destModalIframe" class="w-full h-full" src="" title="Morocco Destination Video Showcase" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+        </div>
+
+        <div>
+          <div class="flex items-center gap-2 text-zinaGold text-xs uppercase tracking-widest font-bold mb-3">
+            <i class="fa-solid fa-images"></i> Authentic Photo Gallery
+          </div>
+          <div id="destModalPhotoGrid" class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-3"></div>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 pt-4 border-t border-white/10">
+          <div class="lg:col-span-2 space-y-4">
+            <h3 class="text-xl sm:text-2xl font-bold text-white">History & Cultural Essence</h3>
+            <p id="destModalDescription" class="text-slate-300 text-xs sm:text-sm leading-relaxed whitespace-pre-line font-normal"></p>
+            
+            <h4 class="text-lg font-bold text-zinaGold pt-4">Signature Highlights & Experiences</h4>
+            <ul id="destModalHighlights" class="space-y-2 text-xs sm:text-sm text-slate-300"></ul>
+          </div>
+
+          <div class="zina-card p-6 rounded-2xl border border-zinaGold/30 space-y-4 h-fit">
+            <h4 class="text-base font-bold text-white border-b border-zinaGold/30 pb-2 flex items-center justify-between">
+              <span>Traveler Quick Facts</span>
+              <i class="fa-solid fa-compass text-zinaGold text-xs"></i>
+            </h4>
+            
+            <div>
+              <div class="text-[11px] text-zinaGold font-bold uppercase tracking-wider">Best Time To Visit</div>
+              <div id="destModalBestTime" class="text-xs text-slate-200 mt-0.5"></div>
+            </div>
+
+            <div>
+              <div class="text-[11px] text-zinaGold font-bold uppercase tracking-wider">Atmosphere</div>
+              <div id="destModalVibe" class="text-xs text-slate-200 mt-0.5"></div>
+            </div>
+
+            <div>
+              <div class="text-[11px] text-zinaGold font-bold uppercase tracking-wider">Recommended Stay</div>
+              <div id="destModalStay" class="text-xs text-slate-200 mt-0.5"></div>
+            </div>
+
+            <!-- Small Map & Geographic Coordinates -->
+            <div class="pt-2 border-t border-white/10">
+              <div class="text-[11px] text-zinaGold font-bold uppercase tracking-wider mb-1 flex items-center justify-between">
+                <span class="flex items-center gap-1.5"><i class="fa-solid fa-map-location-dot"></i> Where It Exists</span>
+                <span id="destModalCoordBadge" class="text-[9px] font-mono text-slate-400"></span>
+              </div>
+              <div id="destModalRegion" class="text-xs text-slate-300 font-medium mb-2 flex items-center gap-1.5">
+                <i class="fa-solid fa-location-dot text-zinaOrange text-[11px]"></i>
+                <span id="destModalRegionText"></span>
+              </div>
+              
+              <!-- Mini Interactive Map Widget -->
+              <div class="relative w-full h-44 rounded-xl overflow-hidden border border-zinaGold/40 bg-zinaNavy-950 shadow-inner group">
+                <iframe id="destModalMapIframe" class="w-full h-full border-0 filter contrast-[1.05]" src="" loading="lazy" title="Location Map"></iframe>
+              </div>
+              
+              <div class="flex items-center justify-between mt-1.5 px-0.5">
+                <span class="text-[10px] text-slate-400"><i class="fa-solid fa-street-view text-zinaGold mr-1"></i>Interactive Map</span>
+                <a id="destModalMapLink" href="#" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 text-[10px] text-zinaGold hover:text-white transition underline">
+                  <span>Enlarge Map</span>
+                  <i class="fa-solid fa-arrow-up-right-from-square text-[8px]"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="pt-3">
+              <button id="destModalInquireBtn" onclick="" class="w-full py-3.5 rounded-xl bg-gradient-to-r from-zinaGold to-zinaOrange text-slate-950 font-bold text-xs uppercase tracking-wider shadow-lg hover:opacity-95 transition">
+                Inquire About This Destination
+              </button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- ================= BLOG READING MODAL ================= -->
+  <div id="blogReadingModal" class="fixed inset-0 bg-black/90 z-50 hidden overflow-y-auto backdrop-blur-xl p-4 sm:p-6 lg:p-10">
+    <div class="max-w-4xl mx-auto bg-zinaNavy-950 border border-zinaGold/50 rounded-3xl overflow-hidden shadow-2xl relative my-6 animate-modal-pop">
+      <button onclick="closeBlogModal()" class="absolute top-5 right-5 z-20 w-11 h-11 rounded-full bg-zinaNavy-900/90 text-white hover:text-zinaGold hover:scale-110 border border-zinaGold/40 flex items-center justify-center transition shadow-lg">
+        <i class="fa-solid fa-xmark text-lg"></i>
+      </button>
+
+      <div class="relative h-64 sm:h-96 w-full overflow-hidden">
+        <img id="blogModalImg" src="" alt="Blog Banner" class="w-full h-full object-cover filter brightness-[0.7]" />
+        <div class="absolute inset-0 bg-gradient-to-t from-zinaNavy-950 via-zinaNavy-950/40 to-transparent"></div>
+        <div class="absolute bottom-6 left-6 sm:left-10 right-6">
+          <div class="flex items-center gap-2 mb-2">
+            <span id="blogModalBadgeCat" class="bg-zinaGold text-slate-950 text-[10px] font-bold uppercase tracking-widest px-3 py-1 rounded-full inline-block"></span>
+            <span id="blogModalTime" class="bg-zinaNavy-900/80 border border-zinaGold/30 text-zinaGold text-[10px] px-2.5 py-1 rounded-full"></span>
+          </div>
+          <h2 id="blogModalPostTitle" class="text-2xl sm:text-4xl font-extrabold text-white leading-tight"></h2>
+          <div id="blogModalPostDate" class="text-xs text-slate-300 mt-2"></div>
+        </div>
+      </div>
+
+      <div class="p-6 sm:p-10 space-y-8">
+        <div class="p-5 rounded-2xl bg-gradient-to-r from-zinaGold/15 via-zinaOrange/10 to-transparent border-l-4 border-zinaGold">
+          <div class="text-xs uppercase tracking-wider text-zinaGold font-bold mb-1">
+            <i class="fa-solid fa-circle-question mr-1"></i> The Core Question:
+          </div>
+          <p id="blogModalHook" class="text-base sm:text-lg text-white font-semibold italic"></p>
+        </div>
+
+        <div id="blogModalBody" class="text-slate-300 text-xs sm:text-sm leading-relaxed space-y-5 font-normal"></div>
+
+        <div id="blogModalTags" class="flex flex-wrap gap-2 pt-6 border-t border-white/10"></div>
+
+        <div class="pt-6 border-t border-zinaGold/20 flex flex-col sm:flex-row items-center justify-between gap-4 bg-zinaNavy-900/60 p-6 rounded-2xl border">
+          <div>
+            <h4 class="text-base font-bold text-white">Have questions about this guide?</h4>
+            <p class="text-xs text-slate-400">Our local Moroccan travel specialists can help you plan every detail.</p>
+          </div>
+          <button id="blogModalActionBtn" onclick="" class="px-6 py-3 rounded-full bg-gradient-to-r from-zinaGold to-zinaOrange text-slate-950 font-bold text-xs uppercase tracking-wider hover:opacity-95 transition">
+            Ask Us About This Trip
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ================= SOCIAL QR MODALS ================= -->
+  <div id="socialPopupModal" class="fixed inset-0 bg-black/85 z-50 hidden flex items-center justify-center p-4 backdrop-blur-md">
+    <div class="bg-zinaNavy-950 border border-zinaGold/50 rounded-3xl p-6 sm:p-8 max-w-sm w-full text-center relative shadow-2xl animate-modal-pop">
+      <button onclick="closeSocialPopup()" class="absolute top-4 right-4 text-slate-400 hover:text-white text-lg">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+
+      <div id="socialPopupIcon" class="w-14 h-14 rounded-full bg-zinaGold/20 text-zinaGold flex items-center justify-center mx-auto text-2xl mb-4"></div>
+      <h3 id="socialPopupTitle" class="text-xl font-bold text-white mb-1"></h3>
+      <p id="socialPopupSubtitle" class="text-xs text-slate-300 mb-6"></p>
+
+      <div class="bg-white p-4 rounded-2xl inline-block shadow-inner mb-4">
+        <svg class="w-44 h-44 text-slate-950" viewBox="0 0 100 100" fill="currentColor">
+          <path d="M10 10h30v30h-30z M15 15v20h20v-20z M22 22h6v6h-6z M60 10h30v30h-30z M65 15v20h20v-20z M72 22h6v6h-6z M10 60h30v30h-30z M15 65v20h20v-20z M22 72h6v6h-6z M60 60h10v10h-10z M75 60h15v10h-15z M60 75h10v15h-10z M75 75h15v15h-15z M45 15h10v10h-10z M45 35h10v10h-10z M15 45h10v10h-10z M35 45h10v10h-10z M45 60h10v10h-10z M45 80h10v10h-10z M65 45h20v10h-20z M85 45h5v5h-5z"/>
+        </svg>
+      </div>
+
+      <div id="socialPopupId" class="text-xs font-mono text-zinaGold bg-zinaNavy-900 border border-zinaGold/30 py-2 px-3 rounded-lg"></div>
+    </div>
+  </div>
+
+    <!-- ================= NOTIFICATION TOAST / THANK YOU MODAL ================= -->
+  <div id="formSuccessToast" class="fixed inset-0 bg-black/80 z-50 hidden flex items-center justify-center p-4 backdrop-blur-md">
+    <div class="zina-card max-w-md w-full rounded-3xl p-8 text-center border-zinaGold animate-modal-pop">
+      <div class="w-16 h-16 rounded-full bg-emerald-500/20 text-emerald-400 border border-emerald-500/40 flex items-center justify-center mx-auto text-2xl mb-4">
+        <i class="fa-solid fa-check"></i>
+      </div>
+      <h3 class="text-2xl font-bold text-white mb-2">Thank you for sending a message!</h3>
+      <p class="text-xs sm:text-sm text-slate-300 leading-relaxed mb-6 font-normal">
+        We have safely received your travel inquiry and sent it directly to <strong class="text-zinaGold">zinamoroccotours@gmail.com</strong>. Our team will get back to you shortly.
+      </p>
+      <div class="space-y-3">
+        <button onclick="document.getElementById('formSuccessToast').classList.add('hidden')" class="w-full py-3.5 rounded-xl bg-gradient-to-r from-zinaGold to-zinaOrange text-slate-950 font-bold text-xs uppercase tracking-wider shadow-lg hover:opacity-95 transition">
+          Close Window & Continue Exploring
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    /* ================= 10 DESTINATIONS REGISTRY ================= */
+        const destinationRegistry = {
+      chefchaouen: {
+        title: "Chefchaouen",
+        subtitle: "The Blue Pearl of the Rif Mountains & Andalusian Kasbah",
+        badge: "The Blue Pearl",
+        hero: "Chefchaouen3.jpg",
+        region: "Rif Mountains, Northwest Morocco",
+        lat: 35.1688,
+        lon: -5.2636,
+        mapUrl: "https://www.openstreetmap.org/export/embed.html?bbox=-5.3436%2C35.0888%2C-5.1836%2C35.2488&layer=mapnik&marker=35.1688%2C-5.2636",
+        externalMapUrl: "https://www.openstreetmap.org/?mlat=35.1688&mlon=-5.2636#map=14/35.1688/-5.2636",
+        videoUrl: "https://www.youtube.com/embed/n8mYRgPNDIU?si=e5MFURonbD3gbpXu",
+        photos: [
+          "Chefchaouen3.jpg",
+          "Chefchaouen6.jpg",
+          "Chefchaouen1.jpg",
+          "chefchaouen2.jpg",
+          "Chefchaouen4.jpg"
+        ],
+        description: `Tucked high in the jagged peaks of the northern Rif Mountains, Chefchaouen is Morocco\'s legendary "Blue Pearl." Founded in 1471 as a fortress against Portuguese invasions, it became a sanctuary for Jewish and Andalusian refugees fleeing southern Spain, who painted its buildings in soothing shades of cerulean, cobalt, and indigo to reflect the sky and the divine.\n\nEvery cobblestone stairway, ornate horseshoe doorway, and cascading bougainvillea plant makes Chefchaouen one of the most visually captivating towns in the Mediterranean basin. Travelers savor freshly picked mint tea in Outa el-Hammam square, hike up to the Spanish Mosque for panoramic sunset vistas, and wander peaceful artisan souks renowned for handwoven wool blankets, cedar woodwork, and pure goat cheese.`,
+        highlights: [
+          "Wandering the serene, indigo-washed medina alleys and photo-worthy doorways",
+          "Plaza Outa el-Hammam and the 15th-century red-stone Kasbah fortress",
+          "Sunset hike to the hilltop Spanish Mosque overlooking the entire valley",
+          "Ras El Maa mountain spring where mountain water cascades past washerwomen and cafés",
+          "Artisanal weaving cooperatives and local goat cheese tasting"
+        ],
+        bestTime: "April to June & September to November for clear mountain air and pleasant hiking",
+        vibe: "Serene, Photogenic, Mountain Sanctuary, Bohemian Andalusian",
+        stay: "1 to 2 days"
+      },
+      tangier: {
+        title: "Tangier (Tanger)",
+        subtitle: "The Gateway of Africa, Strait of Gibraltar & Literary Coast",
+        badge: "Strait Gateway",
+        hero: "tanger2.png",
+        region: "Strait of Gibraltar, Northern Morocco",
+        lat: 35.7595,
+        lon: -5.8340,
+        mapUrl: "https://www.openstreetmap.org/export/embed.html?bbox=-5.9140%2C35.6795%2C-5.7540%2C35.8395&layer=mapnik&marker=35.7595%2C-5.8340",
+        externalMapUrl: "https://www.openstreetmap.org/?mlat=35.7595&mlon=-5.8340#map=14/35.7595/-5.8340",
+        videoUrl: "https://www.youtube.com/embed/PiUUgKaAQcQ?si=welvT8Juw3aJJAxU",
+        photos: [
+          "tanger2.png",
+          "tanger 3.png",
+          "tanger 1.png",
+          "tanger 4.png",
+          "tnger5.png"
+        ],
+        description: `Perched on the northernmost tip of the African continent, Tangier stands as the historic sentinel where the Atlantic Ocean and Mediterranean Sea collide. For centuries an International Zone governing diplomacy, espionage, and bohemian counterculture, Tangier has long bewitched artists, poets, and writers including Henri Matisse, Paul Bowles, and William S. Burroughs.\n\nToday, Tangier blends avant-garde cosmopolitan energy with historic charm. Stroll the clifftop Kasbah with panoramas across the water to the Spanish coastline, sip café au lait on the terrace of legendary Café Hafa, and venture out to Cap Spartel and the mythical Caves of Hercules where waves crash into an opening shaped like the map of Africa.`,
+        highlights: [
+          "Clifftop Kasbah Museum (Dar el-Makhzen) overlooking the Strait of Gibraltar",
+          "Historic Café Hafa terraced café favored by rock icons and writers since 1921",
+          "Cap Spartel lighthouse marking the exact junction of the Atlantic and Mediterranean",
+          "The mythical Caves of Hercules and its sea-facing 'Window to Africa'",
+          "The Grand Socco and vibrant Petit Socco café culture"
+        ],
+        bestTime: "Year-round; best from May to October for warm coastal breezes and beachside promenades",
+        vibe: "Cosmopolitan, Literary, Maritime Gateway, Evocative",
+        stay: "1 to 3 days"
+      },
+      meknes: {
+        title: "Meknes",
+        subtitle: "The Imperial Versailles of Morocco & Roman Volubilis",
+        badge: "Imperial Heritage",
+        hero: "meknes 4.jpg",
+        region: "Fes-Meknes Plains, Central-North Morocco",
+        lat: 33.8938,
+        lon: -5.5516,
+        mapUrl: "https://www.openstreetmap.org/export/embed.html?bbox=-5.6316%2C33.8138%2C-5.4716%2C33.9738&layer=mapnik&marker=33.8938%2C-5.5516",
+        externalMapUrl: "https://www.openstreetmap.org/?mlat=33.8938&mlon=-5.5516#map=14/33.8938/-5.5516",
+        videoUrl: "https://www.youtube.com/embed/GmE_nG61SUk?si=TsjB1v1i5W9WLkdk",
+        photos: [
+          "meknes 4.jpg",
+          "meknes 5.jpg",
+          "meknes 2.jpg",
+          "meknes 3.jpg",
+          "meknes 1.jpg"
+        ],
+        description: `Meknes was constructed under the ambitious vision of Sultan Moulay Ismail to rival the Court of Louis XIV. Fortified by over 25 kilometers of towering crenellated walls, the city is entered through Bab Mansour, widely considered the most magnificent monumental gate in North Africa.\n\nJust 30 minutes through rolling olive groves lies Volubilis, Morocco's best-preserved Roman settlement with intact mosaics of Hercules, Diana, and Bacchus.`,
+        highlights: [
+          "Bab Mansour and its colossal ancient marble columns",
+          "Heri es-Souani royal granaries and stable vaults",
+          "UNESCO World Heritage Roman mosaics of Volubilis",
+          "The sacred whitewashed pilgrimage town of Moulay Idriss Zerhoun"
+        ],
+        bestTime: "Spring (March to May) and Autumn (September to November)",
+        vibe: "Monumental, Relaxed Imperial, Ancient Roman",
+        stay: "1 to 2 days"
+      },
+      agadir: {
+        title: "Agadir",
+        subtitle: "300 Days of Atlantic Sun, Ocean Promenades & Argan Valleys",
+        badge: "Atlantic Sunshine",
+        hero: "agadir 3.jpg",
+        region: "Souss-Massa, Atlantic Coast of Southwest Morocco",
+        lat: 30.4278,
+        lon: -9.5981,
+        mapUrl: "https://www.openstreetmap.org/export/embed.html?bbox=-9.6781%2C30.3478%2C-9.5181%2C30.5078&layer=mapnik&marker=30.4278%2C-9.5981",
+        externalMapUrl: "https://www.openstreetmap.org/?mlat=30.4278&mlon=-9.5981#map=14/30.4278/-9.5981",
+        videoUrl: "https://www.youtube.com/embed/8NxT_5WrBrg?si=C2Q7F6SBeTseuhPo",
+        photos: [
+          "agadir 3.jpg",
+          "agadir 2.jpg",
+          "agadir 6.jpg",
+          "agadir 5.jpg",
+          "agadir 4.jpg"
+        ],
+        description: `Agadir is Morocco's premier coastal haven, blessed with over 300 days of sunshine annually and a protected 10-kilometer golden crescent beach. Rebuilt with broad palms and modern seaside boulevards, it provides a relaxing sanctuary after long overland desert journeys.\n\nTake the cable car up to the historic Agadir Oufella hilltop for sweeping ocean views, savor grilled Atlantic sea bass in the harbor, explore the natural emerald pools of Paradise Valley, or venture north to the surf beaches of Taghazout.`,
+        highlights: [
+          "Cable car ride to the historic Agadir Oufella fortress ruins",
+          "10km wide crescent beach promenade with beachfront dining",
+          "Excursion to Paradise Valley natural emerald swimming pools",
+          "Authentic Argan oil cooperatives in the Souss Valley"
+        ],
+        bestTime: "September to May for warm sunny winter getaways",
+        vibe: "Sun-drenched, Relaxing, Coastal Gastronomy",
+        stay: "2 to 4 days"
+      },
+      ouarzazate: {
+        title: "Ouarzazate",
+        subtitle: "The Door of the Desert & Hollywood of Africa",
+        badge: "Desert Gateway",
+        hero: "ourzazate 1.jpg",
+        region: "Drâa-Tafilalet Plateau, Southern High Atlas Foothills",
+        lat: 30.9189,
+        lon: -6.8934,
+        mapUrl: "https://www.openstreetmap.org/export/embed.html?bbox=-6.9734%2C30.8389%2C-6.8134%2C30.9989&layer=mapnik&marker=30.9189%2C-6.8934",
+        externalMapUrl: "https://www.openstreetmap.org/?mlat=30.9189&mlon=-6.8934#map=14/30.9189/-6.8934",
+        videoUrl: "https://www.youtube.com/embed/J5WFrIV_D9s?si=ZDEV5kKQOyjj9ytN",
+        photos: [
+          "ourzazate 1.jpg",
+          "ourzazate 2.jpg",
+          "ourzazate 3.png",
+          "ourzazate 4.png",
+          "ourzazate 5.png"
+        ],
+        description: `Perched on a high plateau where the Atlas mountains meet the Sahara, Ouarzazate is Morocco's cinematic capital. It is home to Ksar Ait Benhaddou, a striking multi-towered clay fortress that has starred in Gladiator, Lawrence of Arabia, The Mummy, and Game of Thrones.\n\nWalk through the maze of earthen ramparts, explore Atlas Film Studios, and discover the ornate Taourirt Kasbah, the historic residence of the Glaoui pashas of Marrakech.`,
+        highlights: [
+          "Sunset hike to the granary peak of Ksar Ait Benhaddou",
+          "Atlas Film Studios and CLA Studios movie set explorations",
+          "Taourirt Kasbah intricate wood ceiling rooms",
+          "Gateway to the Valley of the Roses and the Dades Gorges"
+        ],
+        bestTime: "October to April (cool desert days)",
+        vibe: "Cinematic, Dramatic Earthen Clay, Historic",
+        stay: "1 to 2 days"
+      },
+      essaouira: {
+        title: "Essaouira (Mogador)",
+        subtitle: "The Wind-Swept Atlantic Pearl, 18th-Century Ramparts & Blue Skiffs",
+        badge: "Atlantic Fortress",
+        hero: "Essaouira 4.jpg",
+        region: "Atlantic Coast, West-Central Morocco",
+        lat: 31.5085,
+        lon: -9.7595,
+        mapUrl: "https://www.openstreetmap.org/export/embed.html?bbox=-9.8395%2C31.4285%2C-9.6795%2C31.5885&layer=mapnik&marker=31.5085%2C-9.7595",
+        externalMapUrl: "https://www.openstreetmap.org/?mlat=31.5085&mlon=-9.7595#map=14/31.5085/-9.7595",
+        videoUrl: "https://www.youtube.com/embed/waVbm80g1J0?si=3hDqJdd7E1KRJBwq",
+        photos: [
+          "Essaouira 4.jpg",
+          "Essaouira 3.jpg",
+          "Essaouira 2.jpg",
+          "Essaouira 5.jpg",
+          "Essaouira 6.jpg"
+        ],
+        description: `Essaouira, formerly Portuguese Mogador, is a fortified seaside enclave renowned for its bohemian soul, UNESCO medina, and sea-facing stone ramparts (Scala de la Ville) armed with 18th-century bronze cannons.\n\nThe harbor is a lively theater of classic blue wooden boats unloading the day's catch of sardines, sea bass, and spider crabs. In the medina's peaceful alleys, master craftsmen carve aromatic thuya wood and art galleries flourish.`,
+        highlights: [
+          "Walking the ramparts of the Scala de la Ville overlooking crashing Atlantic waves",
+          "Feasting on freshly grilled sea catch straight from harbor stalls",
+          "Thuya wood artisan workshops and contemporary Moroccan art galleries",
+          "Strolls along the crescent beach and through coastal argan forest reserves"
+        ],
+        bestTime: "Year-round; ideal temperate escape from summer inland heat",
+        vibe: "Bohemian, Ocean-breeze, Artistic, Fortified Haven",
+        stay: "1 to 3 days"
+      },
+      merzouga: {
+        title: "Merzouga (Erg Chebbi)",
+        subtitle: "The Grand Sahara: 150m Golden Sand Dunes & Starlight Glamping",
+        badge: "Signature Sahara",
+        hero: "merzouga5.jpg",
+        region: "Tafilalet Desert, Southeast Morocco near Algerian Border",
+        lat: 31.0993,
+        lon: -4.0116,
+        mapUrl: "https://www.openstreetmap.org/export/embed.html?bbox=-4.0916%2C31.0193%2C-3.9316%2C31.1793&layer=mapnik&marker=31.0993%2C-4.0116",
+        externalMapUrl: "https://www.openstreetmap.org/?mlat=31.0993&mlon=-4.0116#map=14/31.0993/-4.0116",
+        videoUrl: "https://www.youtube.com/embed/P3mgHcmea_k?si=ICUM-c1Bp-sVOK99",
+        photos: [
+          "merzouga5.jpg",
+          "merzouga3.jpg",
+          "merzouga 2.jpg",
+          "merzouga4.jpg",
+          "merzouga6.jpg"
+        ],
+        description: `Merzouga is the crown jewel of Morocco and the ultimate desert dream. Here, the magnificent sand sea of Erg Chebbi rises up to 150 meters high, shifting its shades from warm honey to burning amber with the angle of the sun.\n\nRide dromedaries in a peaceful caravan across ridge crests as the sun sets over the Sahara, arrive at our private luxury desert camp with private en-suite hot showers, feast on slow-simmered lamb tagine, and gather around the Berber campfire under the cosmic canopy of the Milky Way.`,
+        highlights: [
+          "Sunset and sunrise camel treks across towering Erg Chebbi dunes",
+          "VIP private luxury desert glamping with en-suite bathrooms and heating",
+          "Evening Berber drum rhythms and constellation stargazing by the fire",
+          "4x4 off-road desert adventure visiting nomadic families and Gnawa musicians"
+        ],
+        bestTime: "October to April (crisp clear nights, warm days)",
+        vibe: "Infinite, Magical, Transformational, Wild Luxury",
+        stay: "2 to 3 days"
+      },
+      rabat: {
+        title: "Rabat",
+        subtitle: "The Royal Capital of Green Avenues & Sandstone Citadels",
+        badge: "Imperial Capital",
+        hero: "rabat1.jpg",
+        region: "Northwest Atlantic Coastline, Capital City",
+        lat: 34.0209,
+        lon: -6.8416,
+        mapUrl: "https://www.openstreetmap.org/export/embed.html?bbox=-6.9216%2C33.9409%2C-6.7616%2C34.1009&layer=mapnik&marker=34.0209%2C-6.8416",
+        externalMapUrl: "https://www.openstreetmap.org/?mlat=34.0209&mlon=-6.8416#map=14/34.0209/-6.8416",
+        videoUrl: "https://www.youtube.com/embed/G-JX-aitWLY?si=bKCcb2O9o95s29oS",
+        photos: [
+          "rabat1.jpg",
+          "rabat3.jpg",
+          "rabat4.jpg",
+          "rabat5.jpg",
+          "rabat6.jpg"
+        ],
+        description: `Rabat, Morocco's UNESCO-listed political capital, strikes an alluring balance between modern statehood and quiet historical grandeur. Resting along the Bou Regreg River, it boasts the 12th-century Kasbah des Oudayas with whitewashed, indigo-trimmed alleyways overlooking the Atlantic.\n\nHere you will discover the red sandstone Hassan Tower, the regal Mausoleum of Mohammed V with royal guards on horseback, and the atmospheric ruins of Chellah where Roman and medieval Islamic stones interlace amidst nesting storks.`,
+        highlights: [
+          "Kasbah of the Udayas cliffside walk and Andalusian garden tea",
+          "Hassan Tower & the intricate marble Mausoleum of Mohammed V",
+          "Chellah Necropolis, Roman ruins and serene orange groves",
+          "Bouregreg Marina walkway connecting Rabat and Salé"
+        ],
+        bestTime: "March to June, and September to November",
+        vibe: "Aristocratic, Peaceful, Coastal Heritage",
+        stay: "1 to 2 days"
+      },
+      marrakech: {
+        title: "Marrakech",
+        subtitle: "The Red City, Jemaa el-Fnaa & Atlas Mountain Splendor",
+        badge: "Imperial Jewel",
+        hero: "marrakech 4.jpg",
+        region: "Haouz Plain, Base of the High Atlas Mountains",
+        lat: 31.6295,
+        lon: -7.9811,
+        mapUrl: "https://www.openstreetmap.org/export/embed.html?bbox=-8.0611%2C31.5495%2C-7.9011%2C31.7095&layer=mapnik&marker=31.6295%2C-7.9811",
+        externalMapUrl: "https://www.openstreetmap.org/?mlat=31.6295&mlon=-7.9811#map=14/31.6295/-7.9811",
+        videoUrl: "https://www.youtube.com/embed/nXCjss-dT-Y?si=PotUVpSiZgJ2NqA2",
+        photos: [
+          "marrakech 4.jpg",
+          "marrakech1.jpg",
+          "marrakech 2.jpg",
+          "marrakech 3.jpg",
+          "marrakech 5.jpg"
+        ],
+        description: `Marrakech is Morocco's intoxicating ochre metropolis, where the soaring minaret of Koutoubia Mosque stands against the snowcapped High Atlas peaks. At its center beats Jemaa el-Fnaa, the world-famous UNESCO open-air theater of storytellers, snake charmers, musicians, and sizzling food stalls that awaken each sunset.\n\nBehind ancient rose-hued ramparts lies the architectural extravagance of Bahia Palace, the Saadian Tombs, and the Jardin Majorelle, a botanical paradise of electric cobalt blue once cherished by Yves Saint Laurent.`,
+        highlights: [
+          "Sunset rooftop tea overlooking the theatrical magic of Jemaa el-Fnaa",
+          "Jardin Majorelle & the Yves Saint Laurent Museum",
+          "Bahia Palace intricate carved cedarwood ceilings and zellij courtyards",
+          "Guided exploration of the artisan souks: spice, lantern, and carpet guilds"
+        ],
+        bestTime: "October to April (warm sunny days, cool comfortable evenings)",
+        vibe: "Exuberant, Sensorial, Mythical, Haute-Luxury",
+        stay: "2 to 4 days"
+      },
+      fes: {
+        title: "Fes (Fez)",
+        subtitle: "Spiritual Heart of Morocco & 9,000 Medieval Labyrinth Alleys",
+        badge: "Cultural Epicenter",
+        hero: "fez 6.jpg",
+        region: "Saïss Plain, Northeast Morocco",
+        lat: 34.0331,
+        lon: -5.0003,
+        mapUrl: "https://www.openstreetmap.org/export/embed.html?bbox=-5.0803%2C33.9531%2C-4.9203%2C34.1131&layer=mapnik&marker=34.0331%2C-5.0003",
+        externalMapUrl: "https://www.openstreetmap.org/?mlat=34.0331&mlon=-5.0003#map=14/34.0331/-5.0003",
+        videoUrl: "https://www.youtube.com/embed/bVz2eSUVaLs?si=bSHH9CxZe1BlcaiF",
+        photos: [
+          "fez 6.jpg",
+          "fez 2.jpg",
+          "fez 4.jpg",
+          "fez 5.jpg",
+          "fez 3.jpg"
+        ],
+        description: `Fes is a living museum of the Islamic Golden Age. Founded in the 8th century, its medina (Fes el-Bali) is the largest continuous car-free urban zone in the world, home to over 9,000 alleys where pack mules still carry aromatic spices, hand-beaten brass, and zellij ceramics.\n\nStand on high terraces overlooking the multi-colored limestone vats of Chouara Tannery, admire the exquisite tilework of Bou Inania Medersa, and visit Al-Qarawiyyin, acknowledged by UNESCO as the oldest continually operating university on Earth.`,
+        highlights: [
+          "Chouara Tannery viewing balconies with fragrant mint sprigs",
+          "Al-Qarawiyyin University & Bou Inania Medersa carving artistry",
+          "Bab Bou Jeloud (The iconic Blue Gate of Fes)",
+          "Artisan copper, ceramic pottery and silk weaver workshops"
+        ],
+        bestTime: "October to April (milder weather for medina walking)",
+        vibe: "Medieval, Sensory, Deeply Spiritual",
+        stay: "2 to 3 days"
+      },
+      tinghir: {
+        title: "Tinghir (Todra Gorge)",
+        subtitle: "Monumental 300-Meter Limestone Canyons & Palm Oases",
+        badge: "Canyon & Oasis",
+        hero: "tinghir 4.jpg",
+        region: "Todra River Valley, Eastern High Atlas / Jbel Saghro",
+        lat: 31.5147,
+        lon: -5.5328,
+        mapUrl: "https://www.openstreetmap.org/export/embed.html?bbox=-5.6128%2C31.4347%2C-5.4528%2C31.5947&layer=mapnik&marker=31.5147%2C-5.5328",
+        externalMapUrl: "https://www.openstreetmap.org/?mlat=31.5147&mlon=-5.5328#map=14/31.5147/-5.5328",
+        videoUrl: "https://www.youtube.com/embed/xkmbZYOOToo?si=bFaoYguXfr_9fMZj",
+        photos: [
+          "tinghir 4.jpg",
+          "tinghir 2.jpg",
+          "tinghir 6.jpg",
+          "tinghir 5.jpg"
+        ],
+        description: `Nestled between the High Atlas mountains and the Jbel Saghro range, Tinghir is built around one of Morocco's lushest date-palm valleys. The river leads directly into the jaw-dropping Todra Gorge, where sheer pink-and-ochre limestone cliffs soar 300 meters straight up, leaving a narrow, cool pathway along the crystal stream.\n\nTravelers come to walk the tranquil canyon bed, meet traditional Berber shepherd families, and hike through the terrace gardens of ancient mudbrick ksour.`,
+        highlights: [
+          "Walking alongside the crystal-clear Todra river beneath 300m canyon walls",
+          "Panoramas over the 30-kilometer Tinghir Palmeraie green oasis",
+          "Traditional Berber carpet cooperatives and mint tea ceremonies",
+          "Rock climbing and scenic valley trekking"
+        ],
+        bestTime: "Spring and Autumn for mild trekking temperatures",
+        vibe: "Breathtaking Geology, Mountain Springs, Berber Heart",
+        stay: "1 to 2 days"
+      },
+      casablanca: {
+        title: "Casablanca",
+        subtitle: "The Atlantic Gateway & Colossal Hassan II Mosque",
+        badge: "Atlantic Hub",
+        hero: "casablanca  4.jpg",
+        region: "Western Coastline along the Atlantic Ocean",
+        lat: 33.5731,
+        lon: -7.5898,
+        mapUrl: "https://www.openstreetmap.org/export/embed.html?bbox=-7.6698%2C33.4931%2C-7.5098%2C33.6531&layer=mapnik&marker=33.5731%2C-7.5898",
+        externalMapUrl: "https://www.openstreetmap.org/?mlat=33.5731&mlon=-7.5898#map=14/33.5731/-7.5898",
+        videoUrl: "https://www.youtube.com/embed/kRjKqU8bJ-M?rel=0",
+        photos: [
+          "casablanca  4.jpg",
+          "casablanca 1.jpg",
+          "casablanca 2.jpg",
+          "casablanca 5.jpg",
+          "casablanca 3.jpg"
+        ],
+        description: `Casablanca is Morocco's modern heartbeat — a city where ocean waves meet Art Deco architecture and Moroccan charm blends with contemporary energy. From the iconic Hassan II Mosque rising over the Atlantic to stylish cafés, lively souks, and scenic coastal promenades, Casablanca is a dynamic destination full of discoveries.\n\nIts crowning jewel is the Hassan II Mosque, an architectural triumph with a 210-meter minaret that shoots a green laser towards Mecca, and a glass floor hovering over ocean tides.`,
+        highlights: [
+          "Private tour of the Hassan II Mosque interior and ablution halls",
+          "Sunset strolls along the Atlantic La Corniche and Ain Diab",
+          "Habous Quarter (Nouvelle Medina) for artisanal woodwork and olive souks",
+          "Nostalgic dining or cocktails at the recreated Rick's Café"
+        ],
+        bestTime: "Year-round; pleasant ocean breezes in spring and autumn",
+        vibe: "Cosmopolitan, Ocean-facing, Architectural blend",
+        stay: "1 to 2 days"
+      }
+    };
+
+    /* ================= 27 BLOG ARTICLES WITH DETAILED ANSWERS ================= */
+    const blogRegistry = [
+      {
+        id: "christmas-new-year-sahara",
+        cat: "desert",
+        catName: "Travel Guide",
+        date: "Oct 14, 2026",
+        read: "13 min read",
+        img: "merzouga3.jpg",
+        title: "Christmas & New Year in the Sahara: A Holiday Guide for Americans",
+        question: "How would it feel to skip the crowded shopping lanes and the gray weather this December and spend a few holiday nights beside the dunes instead?",
+        tags: ["#Sahara Holiday", "#Christmas In Morocco", "#New Year Sahara", "#Zina Morocco Tours"],
+        answer: `
+          <h4 class="text-base font-bold text-zinaGold mb-2">A Holiday Unlike Any Other: Golden Dunes Over Gray Winter</h4>
+          <p>Trading crowded malls and icy sleet for the radiant warmth and stillness of the Erg Chebbi dunes in Merzouga is one of the most rewarding ways to spend the December holiday season. Winter in the Sahara is characterized by pristine blue skies, crisp desert breezes, and daytime temperatures hovering comfortably around 18°C to 22°C (65°F to 72°F)—ideal for sandboarding, quad biking, and sunset camel trekking.</p>
+          
+          <h4 class="text-base font-bold text-zinaGold mt-4 mb-2">How Christmas Eve & New Year's Eve Unfold in Desert Glamping</h4>
+          <p>Our luxury desert camps turn the holiday evenings into an intimate celebration. Rather than artificial noise, the night begins with sunset aperitifs on dune ridges, followed by a candlelit multi-course Moroccan feast. You will enjoy slow-roasted Mechoui lamb, fragrant vegetable tagines, spiced almond pastries, and hot mint tea. As midnight approaches, local Berber musicians gather around a roaring campfire, filling the canyon of dunes with trance-inducing drum rhythms under the brilliance of the winter Milky Way.</p>
+          
+          <h4 class="text-base font-bold text-zinaGold mt-4 mb-2">Winter Desert Comfort & What to Pack</h4>
+          <ul class="list-disc pl-5 space-y-1 text-slate-300">
+            <li><strong>Luxury Heated Tents:</strong> Our partner camps provide private en-suite ceramic bathrooms, hot pressurized showers, plush duvets, and electric blankets or climate control.</li>
+            <li><strong>Dressing in Layers:</strong> Sahara winter days are warm, but once the sun sinks behind the dunes, temperatures drop rapidly to 5°C–8°C (40°F–46°F). Pack thermal base layers, a wool beanie, a fleece jacket, and sturdy desert walking boots.</li>
+            <li><strong>Booking Early:</strong> December 20 to January 5 is peak high season for desert glamping. Private 4x4 vehicles and luxury tents must be reserved 3 to 6 months in advance.</li>
+          </ul>
+        `
+      },
+      {
+        id: "plan-morocco-from-usa",
+        cat: "planning",
+        catName: "Travel Guide",
+        date: "Oct 13, 2026",
+        read: "5 min read",
+        img: "casablanca 1.jpg",
+        title: "How to Plan a Morocco Trip from the USA (2027 Guide)",
+        question: "Morocco is closer than you think People are always surprised by this one. Get on a plane at JFK after dinner and you'll be having breakfast in Casablanca. That's quicker than flying from New York to Honolulu. And the payoff? Pretty hard to beat. Medinas where donkeys still do the deliveries. Mint tea poured from a ridiculous height (it's on purpose, we promise). Dunes that glow orange, then pink, then purple as the sun goes down.",
+        tags: ["#Morocco Trip", "#Morocco 7 day tour", "#USA to Morocco"],
+        answer: `
+          <h4 class="text-base font-bold text-zinaGold mb-2">Direct Flight Corridors & Entry Formalities</h4>
+          <p>Flying from North America to North Africa is surprisingly direct. Royal Air Maroc operates daily nonstop flights connecting New York (JFK), Washington D.C. (IAD), and Miami (MIA) straight to Casablanca’s Mohammed V International Airport (CMN) in approximately 6.5 to 7.5 hours. United Airlines and other major carriers also offer seasonal direct routes to Marrakech, while European connections via Lisbon, Madrid, or Paris allow easy access into Fes, Tangier, and Agadir.</p>
+          
+          <h4 class="text-base font-bold text-zinaGold mt-4 mb-2">Visas, Currency & Connectivity</h4>
+          <ul class="list-disc pl-5 space-y-1 text-slate-300">
+            <li><strong>No Tourist Visa Required:</strong> US and Canadian passport holders receive a free 90-day tourist entry stamp upon arrival. Ensure your passport has at least 6 months validity remaining.</li>
+            <li><strong>Currency (Moroccan Dirham - MAD):</strong> Cash is king in medina markets and small eateries. You can withdraw Dirhams at airport ATMs or medina bank branches upon landing ($1 USD is approximately 9.8 to 10 MAD).</li>
+            <li><strong>Local eSIM / SIM Cards:</strong> Maroc Telecom and Orange provide high-speed 4G/5G data packages right at the arrival terminal for around $15 to $20 USD.</li>
+          </ul>
+
+          <h4 class="text-base font-bold text-zinaGold mt-4 mb-2">Recommended Itinerary Pacing for US Visitors</h4>
+          <p>For a standard 8-to-10 day US vacation, avoid trying to cover the entire country. The optimal route lands in Casablanca, moves inland to the spiritual medina of Fes, crosses the Middle Atlas cedar forests to the Merzouga Sahara dunes, traverses Todra Gorge and Ouarzazate, and concludes with three vibrant nights in Marrakech before flying home.</p>
+        `
+      },
+      {
+        id: "agency-vs-independent",
+        cat: "planning",
+        catName: "Travel Guide",
+        date: "Oct 12, 2026",
+        read: "6 min read",
+        img: "tinghir 6.jpg",
+        title: "Should You Visit Morocco with a Travel Agency or Travel Independently?",
+        question: "Have you ever opened ten browser tabs, one showing camel rides in the Sahara and another showing a train time from Marrakech to Fes, and still felt no closer to a plan? That feeling is exactly why so many people start comparing Morocco travel agency vs self travel. Here is what each option looks like, where solo travel works well, and where a guide helps most.",
+        tags: ["#Morocco travel agency vs self travel", "#private Morocco tour"],
+        answer: `
+          <h4 class="text-base font-bold text-zinaGold mb-2">Where Independent Travel Works Best</h4>
+          <p>Morocco has modern high-speed rail (the Al Boraq bullet train connects Tangier, Rabat, and Casablanca in just over 2 hours). If your trip is strictly confined to modern coastal hubs, independent city-hopping by train is very feasible for experienced backpackers and solo travelers comfortable navigating train stations and hailing city petit taxis.</p>
+
+          <h4 class="text-base font-bold text-zinaGold mt-4 mb-2">Why Desert & Mountain Expeditions Require a Dedicated Agency</h4>
+          <p>The moment your plans expand beyond northern rail lines into the High Atlas, Dades Valley, and the Sahara, self-driving becomes taxing. Mountain passes like the Tizi n'Tichka feature hairpin switchbacks, heavy truck traffic, and frequent weather variations. Renting a car also introduces stress around navigation, police checkpoints, and desert track navigation where GPS frequently cuts out.</p>
+
+          <h4 class="text-base font-bold text-zinaGold mt-4 mb-2">The Zina Morocco Private Agency Advantage</h4>
+          <ul class="list-disc pl-5 space-y-1 text-slate-300">
+            <li><strong>Door-to-Door Riad Escort:</strong> Medinas in Fes and Marrakech are completely car-free. Our team coordinates baggage porters and ensures you are escorted directly to your riad's tucked-away entrance.</li>
+            <li><strong>Zero Hassle or Pressure:</strong> A private licensed native driver shields you from tourist scams, unwanted marketplace solicitation, and commission traps.</li>
+            <li><strong>Spontaneous Freedom:</strong> Unlike rigid big-bus group tours, a private journey lets you pause whenever you spot a picturesque valley, stop for fresh roadside figs, or adjust your departure times to match your personal body clock.</li>
+          </ul>
+        `
+      },
+      {
+        id: "whats-included-package",
+        cat: "planning",
+        catName: "Travel Guide",
+        date: "Sep 30, 2026",
+        read: "7 min read",
+        img: "merzouga 2.jpg",
+        title: "What's Included in a Morocco Tour Package?",
+        question: "Is that the Morocco tour you found online covering your hotels, your driver and the camel ride, or will small extra costs pop up halfway through the trip?",
+        tags: ["#morocco tour", "#transparent pricing", "#luxury inclusions"],
+        answer: `
+          <h4 class="text-base font-bold text-zinaGold mb-2">Demystifying Morocco Tour Inclusions</h4>
+          <p>Online tour listings frequently hide surprise fees behind vague bullet points. Budget operators often quote low base rates, only to demand cash supplements for luggage handling, air conditioning fuel surcharges, camel transfers, or monument entry tickets midway through your vacation.</p>
+
+          <h4 class="text-base font-bold text-zinaGold mt-4 mb-2">What a Premium Zina Tour Package Always Includes:</h4>
+          <ul class="list-disc pl-5 space-y-1 text-slate-300">
+            <li><strong>Dedicated Private Chauffeur & Vehicle:</strong> Modern, air-conditioned 4x4 Prado/Land Cruiser or luxury Mercedes V-Class minivan, all fuel, road tolls, and parking fees included.</li>
+            <li><strong>Curated Accommodations:</strong> Boutique heritage riads in the imperial medinas and premier luxury desert camps with private en-suite flush toilets and hot showers.</li>
+            <li><strong>Sahara Expeditions:</strong> Sunset camel trekking with personal camel guides, 4x4 luggage transfer directly to your tent, evening campfire entertainment, and sandboarding equipment.</li>
+            <li><strong>Daily Dining:</strong> Full daily breakfasts at all hotels, plus multi-course traditional dinners during your desert and mountain stays.</li>
+            <li><strong>Licensed City Historians:</strong> Official government-licensed guides for walking tours in Fes and Marrakech.</li>
+          </ul>
+
+          <h4 class="text-base font-bold text-zinaGold mt-4 mb-2">What Stays Under Your Control</h4>
+          <p>International flights, mid-day lunches (so you can choose light street snacks or gourmet bistros freely), personal alcoholic drinks, and discretionary tipping for guides and drivers are handled separately to give you total flexibility.</p>
+        `
+      },
+      {
+        id: "safety-couples-honeymoon",
+        cat: "safety",
+        catName: "Morocco Travel Guide",
+        date: "Sep 18, 2026",
+        read: "5 min read",
+        img: "Chefchaouen3.jpg",
+        title: "Is Morocco Safe for Couples and Honeymoon Travelers?",
+        question: "Have you and your partner started planning a trip to Morocco, only to feel a small flicker of worry creep in? Is Morocco safe for couples, especially on your first big trip together? Thousands of couples ask the same question every year before packing for Morocco's rose-tinted medinas and golden dunes. This guide covers what actually makes Morocco a safe, romantic destination, what small habits matter most, and why private Morocco tours turn a nervous first trip into a relaxed one for both of you.",
+        tags: ["#morocco honeymoon", "#couple safety", "#romantic morocco"],
+        answer: `
+          <h4 class="text-base font-bold text-zinaGold mb-2">The Reality of Safety for Couples in Morocco</h4>
+          <p>Morocco is widely considered one of the most politically stable and hospitable countries in the Mediterranean basin. Violent crime against foreign visitors is exceptionally rare, backed by dedicated <em>Brigade Touristique</em> (Tourist Police) units stationed throughout every major medina. For couples, Morocco offers an intoxicating blend of exotic romance, secluded riad courtyards, and warm Berber hospitality.</p>
+
+          <h4 class="text-base font-bold text-zinaGold mt-4 mb-2">Cultural Etiquette & Practical Advice for Couples</h4>
+          <ul class="list-disc pl-5 space-y-1 text-slate-300">
+            <li><strong>Public Displays of Affection:</strong> While holding hands and walking arm-in-arm is completely normal and welcomed, avoid passionate kissing or intense public embraces in conservative medina quarters.</li>
+            <li><strong>Dress Appropriately:</strong> Modest clothing shows respect for local traditions. For women and men, lightweight linen clothing that covers shoulders and knees makes navigating traditional souks easy and comfortable.</li>
+            <li><strong>Private Riads as Sanctuaries:</strong> Traditional riads are architectural gems built facing inward toward secluded fountain courtyards, offering couples complete privacy, plunge pools, and intimate candlelit dinners.</li>
+          </ul>
+
+          <h4 class="text-base font-bold text-zinaGold mt-4 mb-2">Why Private Transport Transforms the Honeymoon Experience</h4>
+          <p>Having a private native driver creates an effortless bubble of security. You avoid the pressure of aggressive taxi drivers or lost walks in late-night medina corridors, allowing you and your partner to simply relax and soak in the romantic scenery.</p>
+        `
+      },
+      {
+        id: "morocco-4-seasons",
+        cat: "safety",
+        catName: "Travel Guide",
+        date: "Sep 17, 2026",
+        read: "5 min read",
+        img: "marrakech 4.jpg",
+        title: "Morocco in All 4 Seasons: Which Is the Best Time to Visit?",
+        question: "Explore Morocco across all four seasons, from blooming spring valleys and warm autumn days to hot summers and cool winter nights. Learn about regional weather, desert conditions, crowds, and travel tips to choose the right season for your Morocco adventure.",
+        tags: ["#Morocco Seasons", "#Weather Guide", "#Best Time"],
+        answer: `
+          <h4 class="text-base font-bold text-zinaGold mb-2">Spring (March to May): The Golden Window</h4>
+          <p>Spring is universally recognized as the best season to explore Morocco. The countryside is carpeted in wildflowers, almond blossoms bloom across the High Atlas, and temperatures in Marrakech and Fes average a pleasant 23°C to 27°C (73°F–80°F). Desert nights are crisp without dipping into winter freezing zones.</p>
+
+          <h4 class="text-base font-bold text-zinaGold mt-4 mb-2">Autumn (September to November): Optimal Balances</h4>
+          <p>As summer heat dissipates, September and October bring crystal-clear desert skies and balmy ocean waters. It is the date-harvesting season in Tinghir and Merzouga, making the oasis valleys exceptionally lush and vibrant.</p>
+
+          <h4 class="text-base font-bold text-zinaGold mt-4 mb-2">Winter (December to February): Snowcapped Peaks & Desert Days</h4>
+          <p>While northern cities and the Atlas Mountains experience rain and even snow (Oukaïmeden features active ski slopes!), the Sahara is sun-drenched and clear during the day (18°C–20°C). Nights, however, regularly hit 3°C–6°C, requiring heated luxury glamping accommodations.</p>
+
+          <h4 class="text-base font-bold text-zinaGold mt-4 mb-2">Summer (June to August): Coastal Havens</h4>
+          <p>Inland cities like Fes, Marrakech, and the Sahara can reach scorching highs of 40°C–45°C (104°F–113°F). If traveling in summer, pivot your route toward the cool Atlantic sea breezes of Essaouira (24°C year-round), the beaches of Agadir, and mountain treks in the High Atlas.</p>
+        `
+      },
+      {
+        id: "20-must-try-foods",
+        cat: "culture",
+        catName: "Travel Guide",
+        date: "Sep 16, 2026",
+        read: "6 min read",
+        img: "https://images.unsplash.com/photo-1541518763669-27fef04b14ea?auto=format&fit=crop&w=800&q=80",
+        title: "20 Must-Try Moroccan Foods Every Traveler Should Taste",
+        question: "Explore the flavors of Morocco through a guide to traditional Moroccan food, from tagine, street food, and fresh bread to mint tea and sweet pastries. Learn what to order, where to try local dishes, and how food adds meaning to your Moroccan travel experience.",
+        tags: ["#Moroccan Cuisine", "#Tagine", "#Street Food"],
+        answer: `
+          <h4 class="text-base font-bold text-zinaGold mb-2">The Pillars of Authentic Moroccan Gastronomy</h4>
+          <p>Moroccan cooking is an art form refined over centuries, weaving Berber earthen stewing, Andalusian sweet-and-savory pairings, and Saharan spice blends. Here are the essential culinary experiences you cannot miss:</p>
+
+          <h4 class="text-base font-bold text-zinaGold mt-4 mb-2">Top 5 Iconic Dishes to Seek Out</h4>
+          <ol class="list-decimal pl-5 space-y-2 text-slate-300">
+            <li><strong>Lamb Tagine with Prunes & Almonds:</strong> Meltingly tender shank simmered in saffron, ginger, and cinnamon, topped with caramelized prunes and toasted sesame seeds.</li>
+            <li><strong>Pastilla (B'stilla):</strong> Delicate layers of paper-thin warka pastry stuffed with spiced slow-cooked poultry or pigeon, crushed almonds, orange blossom water, dusted with powdered sugar and cinnamon.</li>
+            <li><strong>Tanjia Marrakchia:</strong> Marrakech’s signature bachelor dish—beef chunks seasoned with cumin, preserved lemon, and smen (aged butter), sealed in a clay jar and slow-cooked in the ash beneath the neighborhood hammam.</li>
+            <li><strong>Friday Seven-Vegetable Couscous:</strong> Fluffy, hand-steamed semolina grains topped with pumpkin, zucchini, carrots, cabbage, chickpeas, and a rich bouillon.</li>
+            <li><strong>Berber "Madfouna" (Desert Pizza):</strong> A Merzouga specialty—stuffed flatbread filled with minced lamb, beef, almonds, hard-boiled eggs, onions, and Saharan herbs, baked in an earthen oven.</li>
+          </ol>
+
+          <h4 class="text-base font-bold text-zinaGold mt-4 mb-2">Street Snacks & Tea Rituals</h4>
+          <p>Do not miss fresh Moroccan flatbreads (<em>Khobz</em>, <em>Msemmen</em>, and honey-drizzled <em>Baghrir</em> thousand-hole pancakes), Harira tomato and lentil soup, spiced snails in herbal broth, and ceremonial Moroccan mint tea ("Berber whiskey") poured from high above to aerate the infusion and create a delicate crown of foam.</p>
+        `
+      },
+      {
+        id: "morocco-honeymoon-itinerary",
+        cat: "planning",
+        catName: "Travel Guide",
+        date: "Aug 31, 2026",
+        read: "7 min read",
+        img: "Essaouira 4.jpg",
+        title: "Morocco Honeymoon: Best Places, Itinerary & Travel Tips",
+        question: "Planning a romantic honeymoon in Morocco? This guide covers the best places, simple itinerary ideas, private tours, and helpful booking tips. From Marrakech and Fes to the Sahara Desert and Essaouira, find ideas to create a memorable Morocco honeymoon without feeling rushed.",
+        tags: ["#Morocco Honeymoon", "#Romantic Getaway", "#Private Luxury"],
+        answer: `
+          <h4 class="text-base font-bold text-zinaGold mb-2">Crafting the Ultimate Romantic Moroccan Journey</h4>
+          <p>A honeymoon in Morocco balances exotic mystique with ultra-indulgent boutique luxury. The secret to an unforgettable honeymoon is avoiding fast-paced 1-night stops and instead spending 2 to 3 nights in each signature destination to unwind and soak in the atmosphere.</p>
+
+          <h4 class="text-base font-bold text-zinaGold mt-4 mb-2">The Ideal 10-Day Honeymoon Blueprint</h4>
+          <ul class="list-disc pl-5 space-y-1.5 text-slate-300">
+            <li><strong>Days 1–3: Marrakech Glamour & Hammams.</strong> Stay in an upscale boutique riad in the medina. Book a couple's traditional scrub and Argan massage at a heritage royal bathhouse, explore Jardin Majorelle, and dine by candlelight in lantern-lit courtyards.</li>
+            <li><strong>Days 4–5: Across the Atlas to Merzouga Dunes.</strong> Scenic drive past ancient kasbahs, arriving at your private VIP Sahara tent. Enjoy a private sunset camel ride together, dine on sand dune peaks, and sleep beneath unpolluted starlight.</li>
+            <li><strong>Days 6–7: Skoura Oasis & Todra Gorge.</strong> Retreat to a restored 19th-century kasbah in Skoura's palm oasis featuring fragrant rose gardens and rooftop sunset cocktails.</li>
+            <li><strong>Days 8–10: Coastal Romance in Essaouira.</strong> Cool down along the ocean ramparts, enjoy fresh grilled lobster in the harbor, explore bohemian art studios, and take horseback rides along wild ocean beaches.</li>
+          </ul>
+
+          <h4 class="text-base font-bold text-zinaGold mt-4 mb-2">Honeymoon Upgrades to Request</h4>
+          <p>Ask our team for private candlelit dune dining setups, vintage sidecar tours in Marrakech, and riad suites equipped with private rooftop plunge pools.</p>
+        `
+      },
+      {
+        id: "how-hot-is-morocco",
+        cat: "desert",
+        catName: "Travel Guide",
+        date: "Aug 27, 2026",
+        read: "7 min read",
+        img: "merzouga5.jpg",
+        title: "How Hot Is Morocco? Planning a 10 Days Morocco Desert Tour",
+        question: "Learn how Morocco's weather changes across cities, mountains, and the Sahara during a 10-day journey. Discover the best travel seasons, packing tips, and desert tour planning advice.",
+        tags: ["#Desert Temperature", "#Packing Advice", "#10 Day Tour"],
+        answer: `
+          <h4 class="text-base font-bold text-zinaGold mb-2">The Diverse Microclimates of Morocco</h4>
+          <p>Many travelers assume Morocco is uniformly scorching. In reality, a single 10-day tour takes you through Atlantic coastal breezes, snowy 2,200-meter High Atlas mountain passes, and arid Saharan sand seas, each with dramatically distinct climates.</p>
+
+          <h4 class="text-base font-bold text-zinaGold mt-4 mb-2">Regional Temperature Breakdown</h4>
+          <ul class="list-disc pl-5 space-y-1 text-slate-300">
+            <li><strong>Coastal Areas (Casablanca, Rabat, Essaouira):</strong> Year-round mild maritime climate. Summer highs rarely exceed 26°C (79°F), with cooling sea breezes.</li>
+            <li><strong>Inland Imperial Cities (Fes, Marrakech):</strong> Mediterranean continental climate. Spring/Autumn averages 24°C–28°C (75°F–82°F). Midsummer (July/August) frequently climbs above 40°C (104°F).</li>
+            <li><strong>The Sahara (Merzouga / Erg Chebbi):</strong> Extreme diurnal shifts. In spring/autumn, days are warm (28°C–32°C / 82°F–90°F), but once night falls, temperatures plummet by 15°C–20°C due to rapid sand radiation.</li>
+          </ul>
+
+          <h4 class="text-base font-bold text-zinaGold mt-4 mb-2">Essential Packing Strategy</h4>
+          <p>Embrace the "desert onion principle": pack breathable linen tops, UV-blocking sunglasses, and wide-brim hats for midday sunshine, paired with a packable down jacket, warm fleece, and wool socks for evening stargazing sessions.</p>
+        `
+      },
+      {
+        id: "jewish-guided-tour",
+        cat: "culture",
+        catName: "Travel Guide",
+        date: "Aug 26, 2026",
+        read: "7 min read",
+        img: "https://images.unsplash.com/photo-1589308078059-be1415eab4c3?auto=format&fit=crop&w=800&q=80",
+        title: "Jewish Guided Tour Morocco: Explore Jewish Heritage & History",
+        question: "Experience Morocco's rich Jewish heritage through historic Mellahs, synagogues, museums, and cultural landmarks. Travel with expert local guides and enjoy a personalized journey across Morocco's remarkable Jewish history and traditions.",
+        tags: ["#Jewish Heritage", "#Morocco History", "#Mellah Tour"],
+        answer: `
+          <h4 class="text-base font-bold text-zinaGold mb-2">A Coexistence Spanning Over Two Millennia</h4>
+          <p>Morocco boasts the deepest and most celebrated Jewish heritage in the Arab world, dating back over 2,000 years to the Roman era, followed by the arrival of Sephardic Jews fleeing the Spanish Inquisition in 1492. Under the historical protection of Moroccan Sultans and Kings, Jewish communities flourished in every major imperial capital and Atlas mountain village.</p>
+
+          <h4 class="text-base font-bold text-zinaGold mt-4 mb-2">Key Heritage Landmarks Covered on Our Custom Routes</h4>
+          <ul class="list-disc pl-5 space-y-1.5 text-slate-300">
+            <li><strong>Casablanca:</strong> Visit the Museum of Moroccan Judaism (the only dedicated Jewish museum in the Arab world) and the historic Temple Beth-El synagogue.</li>
+            <li><strong>Fes el-Bali & The Mellah:</strong> Explore the 17th-century Danan Synagogue (Ibn Danan), the Habarim cemetery, and the former home of the philosopher Maimonides.</li>
+            <li><strong>Marrakech:</strong> Wander through the Mellah quarter, the Lazama Synagogue (Al Azama) founded in 1492, and the sacred Miaara Jewish Cemetery.</li>
+            <li><strong>Essaouira (Mogador):</strong> Visit the beautifully restored Slat Lkahal Synagogue and the historic pilgrimage sanctuary of Rabbi Haim Pinto.</li>
+            <li><strong>High Atlas Hill Shrines:</strong> Discover rural pilgrimage sites (<em>Hiloula</em>) honoring revered tzadikim in mountain valleys.</li>
+          </ul>
+
+          <h4 class="text-base font-bold text-zinaGold mt-4 mb-2">Kosher Dining & Cultural Sensitivity</h4>
+          <p>Our private Jewish heritage itineraries include licensed specialist guides, arrangements for Kosher dining or vegetarian accommodations, and visits scheduled around Shabbat and Jewish holidays.</p>
+        `
+      },
+      {
+        id: "fossil-hunting-guide",
+        cat: "desert",
+        catName: "Travel Guide",
+        date: "Aug 21, 2026",
+        read: "5 min read",
+        img: "./fossils.png",
+        title: "The Ultimate Guide to Fossil Hunting in Morocco: Everything You Need to Know",
+        question: "Discover Morocco’s incredible fossil landscapes, from Erfoud to Alnif. Explore ancient marine fossils, join guided tours, learn collecting tips, and experience the Sahara’s prehistoric treasures firsthand.",
+        tags: ["#Fossil Hunting Tour Morocco", "#Erfoud", "#Paleontology"],
+        answer: `
+          <h4 class="text-base font-bold text-zinaGold mb-2">Why the Sahara Was Once a Prehistoric Ocean</h4>
+          <p>Between 350 and 500 million years ago (the Ordovician to Devonian periods), the Sahara desert was the seabed of a warm, teeming prehistoric ocean. As tectonic shifts lifted the Atlas and dried the continental plates, staggering concentrations of marine life were preserved in limestone beds, making the region around Erfoud the fossil capital of the world.</p>
+
+          <h4 class="text-base font-bold text-zinaGold mt-4 mb-2">Top Paleontological Sites to Visit</h4>
+          <ul class="list-disc pl-5 space-y-1.5 text-slate-300">
+            <li><strong>Erfoud & Fossil Workshops:</strong> Visit artisan stone quarries where massive blocks of Devonian limestone are extracted and cut, revealing polished spiral ammonites and orthoceras cephalopods.</li>
+            <li><strong>Alnif & The Trilobite Beds:</strong> World-renowned among collectors for exceptionally preserved spiny trilobites (such as <em>Dicranurus monstrosus</em>).</li>
+            <li><strong>Kem Kem Beds:</strong> Famous Cretaceous deposits near the Algerian border where Spinosaurus and Carcharodontosaurus dinosaur teeth are frequently uncovered.</li>
+          </ul>
+
+          <h4 class="text-base font-bold text-zinaGold mt-4 mb-2">Ethical Collecting & Customs Rules</h4>
+          <p>Common marine fossils like ammonite stones and polished marble crafts can be legally purchased and exported freely. However, rare dinosaur skeletons, meteorites, and protected vertebrates are strictly regulated by Moroccan mining authorities—our guides help you verify authenticity and navigate licensed vendors.</p>
+        `
+      },
+      {
+        id: "10-day-from-casablanca",
+        cat: "planning",
+        catName: "Travel Guide",
+        date: "Aug 20, 2026",
+        read: "6 min read",
+        img: "casablanca  4.jpg",
+        title: "10-Day Morocco Tour from Casablanca: Sahara Desert & Marrakech",
+        question: "Discover a 10-day Morocco journey from Casablanca to Marrakech, covering imperial cities, the Sahara Desert, and the Atlas Mountains. Enjoy a private, well-paced tour featuring desert camping, historic medinas, scenic landscapes, and unforgettable Moroccan experiences.",
+        tags: ["#10 Day Morocco Tour from Casablanca", "#Grand Tour", "#Imperial Cities"],
+        answer: `
+          <h4 class="text-base font-bold text-zinaGold mb-2">The Classic Moroccan Grand Loop</h4>
+          <p>A 10-day route starting in Casablanca and concluding in Marrakech is the gold standard for first-time visitors, capturing all imperial capitals, dramatic mountain passes, and two nights immersed in the Sahara.</p>
+
+          <h4 class="text-base font-bold text-zinaGold mt-4 mb-2">Turn-by-Turn Daily Schedule</h4>
+          <ul class="list-disc pl-5 space-y-1 text-slate-300">
+            <li><strong>Day 1: Casablanca to Rabat.</strong> Tour the magnificent Hassan II Mosque on the Atlantic, then drive 1 hour to Rabat to explore the blue Kasbah des Oudayas.</li>
+            <li><strong>Day 2: Rabat -> Meknes & Volubilis -> Fes.</strong> Admire Bab Mansour in Meknes, walk the UNESCO Roman mosaics of Volubilis, and arrive in Fes.</li>
+            <li><strong>Day 3: Full Day Exploring Fes el-Bali.</strong> Guided tour of Chouara Tannery, Al-Qarawiyyin University, Bou Inania Medersa, and artisan souks.</li>
+            <li><strong>Day 4: Fes -> Ifrane -> Ziz Valley -> Merzouga.</strong> Cross the cedar forests of the Middle Atlas, spot wild Barbary macaques, descend the lush Ziz palm valley, and reach Erg Chebbi.</li>
+            <li><strong>Day 5: Sahara Glamping & Desert Exploration.</strong> Visit Khamlia Gnawa village, nomad camps, take a sunset camel trek, and sleep in a luxury desert camp.</li>
+            <li><strong>Day 6: Merzouga -> Tinghir Todra Gorge -> Dades Valley.</strong> Walk between the 300-meter cliffs of Todra Gorge and overnight among the surreal rock formations of Dades.</li>
+            <li><strong>Day 7: Dades -> Ouarzazate -> Ksar Ait Benhaddou -> Marrakech.</strong> Explore UNESCO earthen clay fortress Ait Benhaddou, climb the High Atlas Tizi n'Tichka pass, and arrive in Marrakech.</li>
+            <li><strong>Days 8–9: Immersive Marrakech.</strong> Discover Bahia Palace, Jardin Majorelle, Saadian Tombs, and the bustling sunset magic of Jemaa el-Fnaa.</li>
+            <li><strong>Day 10: Departure.</strong> Airport transfer to Marrakech Menara Airport (RAK) or return drive to Casablanca (CMN).</li>
+          </ul>
+        `
+      },
+      {
+        id: "top-attractions-merzouga",
+        cat: "desert",
+        catName: "Travel Guide",
+        date: "Jul 22, 2026",
+        read: "6 min read",
+        img: "merzouga6.jpg",
+        title: "Top Attractions to Explore During Your Merzouga Desert Tour",
+        question: "Explore the top attractions to see on a Merzouga desert tour, including Ait Ben Haddou, Todra Gorges, Erg Chebbi dunes, camel trekking, desert camps, and authentic Sahara experiences.",
+        tags: ["#Merzouga Desert Tour", "#Erg Chebbi", "#Khamlia Village"],
+        answer: `
+          <h4 class="text-base font-bold text-zinaGold mb-2">Beyond the Dunes: What to Experience in Erg Chebbi</h4>
+          <p>While riding a camel across the 150-meter-tall golden crests of Erg Chebbi is the centerpiece of any desert voyage, the surrounding desert territory boasts remarkable cultural and geological gems that require an expert 4x4 guide.</p>
+
+          <h4 class="text-base font-bold text-zinaGold mt-4 mb-2">Unmissable Merzouga Highlights</h4>
+          <ul class="list-disc pl-5 space-y-1.5 text-slate-300">
+            <li><strong>Khamlia (The Gnawa Village):</strong> Located on the edge of the dunes, Khamlia is inhabited by descendants of formerly enslaved Sub-Saharan Africans who perform hypnotic Gnawa spiritual music using iron castanets (<em>qraqeb</em>) and camel-skin lutes (<em>guembri</em>).</li>
+            <li><strong>Tea with Nomadic Berber Families:</strong> Journey off-road into the black volcanic desert (reg) to visit genuine pastoral nomad families living in woven camel-wool tents, learning about their life in the desert.</li>
+            <li><strong>Mifis Abandoned Lead Mines:</strong> Perched on a desert plateau, these historic open-cut mines offer panoramic vistas across the entire sand sea stretching toward the Algerian border.</li>
+            <li><strong>Dayet Srji Seasonal Flamingo Lake:</strong> Following spring rains, this temporary saline lake emerges on the perimeter of Merzouga, attracting flocks of migratory pink flamingos.</li>
+            <li><strong>Sandboarding the Great Ridge:</strong> Strap into custom sandboards and glide down silky dune faces before the midday heat sets in.</li>
+          </ul>
+        `
+      },
+      {
+        id: "best-marrakech-packages",
+        cat: "planning",
+        catName: "Travel Guide",
+        date: "Jul 22, 2026",
+        read: "7 min read",
+        img: "marrakech 3.jpg",
+        title: "Best Marrakech Tour Packages | Culture, Adventure & Desert Trips",
+        question: "Have you ever saved a dozen photos of golden Sahara dunes and thousand-year-old medinas, only to realize you have no idea how to turn them into one actual trip?",
+        tags: ["#Marrakech Tour Packages", "#Atlas Day Trips", "#Desert Routes"],
+        answer: `
+          <h4 class="text-base font-bold text-zinaGold mb-2">Why Marrakech Is the Ultimate Launchpad</h4>
+          <p>Marrakech is Morocco's tourism capital for good reason. It blends world-class culinary riads, historic palaces, and high-energy souks, all while resting just 45 minutes from the High Atlas Mountains and serving as the direct springboard for Sahara desert expeditions.</p>
+
+          <h4 class="text-base font-bold text-zinaGold mt-4 mb-2">The Top 3 Marrakech Tour Configurations</h4>
+          <ul class="list-disc pl-5 space-y-2 text-slate-300">
+            <li><strong>1. The 3-Day / 2-Night Merzouga Desert Loop:</strong> Departing Marrakech early, you cross the Tizi n'Tichka pass to Ksar Ait Benhaddou, sleep in the Dades Valley, continue to Todra Gorge, and spend night two glamping in Erg Chebbi before returning to Marrakech.</li>
+            <li><strong>2. The 4-Day Desert to Fes Connection:</strong> Instead of making the long 9-hour return drive back to Marrakech, continue northeast from the Merzouga dunes through the Ziz Valley and Middle Atlas cedar forests to conclude in Fes.</li>
+            <li><strong>3. The High Atlas Mountain & Agafay Escape (Short Stays):</strong> If you only have 3 or 4 days total, pair Marrakech palace tours with a day trip to the Berber village of Imlil under Mount Toubkal, followed by a luxury sunset dinner in the stone-dune Agafay Desert.</li>
+          </ul>
+        `
+      },
+      {
+        id: "fes-tours-guide",
+        cat: "culture",
+        catName: "Travel Guide",
+        date: "Jun 26, 2026",
+        read: "7 min read",
+        img: "fez 2.jpg",
+        title: "Fes Tours – Explore Morocco's Imperial City & Ancient Medina",
+        question: "Have you ever opened ten browser tabs trying to plan a trip to Morocco, only to feel more confused than when you started?",
+        tags: ["#Fes Tours", "#Chouara Tannery", "#Al Qarawiyyin"],
+        answer: `
+          <h4 class="text-base font-bold text-zinaGold mb-2">Stepping Into the World's Largest Living Medieval City</h4>
+          <p>Founded in 789 AD, Fes el-Bali is the cultural, spiritual, and artistic heart of Morocco. Containing over 9,000 interlocking alleyways, 300 mosques, and zero cars, it is the largest continuous pedestrian urban zone in the world. Attempting to navigate Fes on your own without an official guide almost always leads to confusion; an authorized local historian turns the maze into an unforgettable journey.</p>
+
+          <h4 class="text-base font-bold text-zinaGold mt-4 mb-2">What Your Guided Fes Tour Unlocks</h4>
+          <ul class="list-disc pl-5 space-y-1.5 text-slate-300">
+            <li><strong>Chouara Tannery Balconies:</strong> Watch leather artisans soften hides in pigeon guano vats and dye them using natural poppy, indigo, and saffron, a process unchanged since the 11th century.</li>
+            <li><strong>University of Al-Qarawiyyin:</strong> Founded in 859 AD by Fatima al-Fihri, recognized by UNESCO and the Guinness World Records as the oldest continually operating institution of higher learning on Earth.</li>
+            <li><strong>Bou Inania & Al-Attarine Medersas:</strong> Masterpieces of Marinid architecture, displaying hand-chiseled stucco, cedarwood latticework, and geometric zellij tilework.</li>
+            <li><strong>Pottery & Zellij Cooperatives:</strong> Meet master tile-makers outside the medina walls who chip enameled clay tiles into intricate geometric mosaics by hand.</li>
+          </ul>
+        `
+      },
+      {
+        id: "sahara-tour-worth-it",
+        cat: "desert",
+        catName: "Morocco vs Others",
+        date: "Jun 25, 2026",
+        read: "8 min read",
+        img: "merzouga4.jpg",
+        title: "Is a Sahara Desert Tour Worth It? What Travelers Actually Experience",
+        question: "Ever found yourself staring at desert photos online, wondering if the real thing could possibly match the picture in your head?",
+        tags: ["#Sahara Desert Tour", "#Erg Chebbi Reality", "#Desert Experience"],
+        answer: `
+          <h4 class="text-base font-bold text-zinaGold mb-2">Addressing the Driving Distance Reality</h4>
+          <p>Reaching the genuine golden dunes of Erg Chebbi in Merzouga requires roughly 8 to 9 hours of driving from either Marrakech or Fes. Many prospective travelers ask: <em>"Is spending two full travel days worth one or two nights in the desert?"</em></p>
+
+          <h4 class="text-base font-bold text-zinaGold mt-4 mb-2">Why 98% of Travelers Rate It as Their #1 Memory</h4>
+          <p>The journey itself is not a monotonous highway drive—it is a stunning geographical transition. You traverse snowcapped mountain passes, pass through the film-set kasbahs of Ouarzazate, walk limestone river canyons in Tinghir, and cross ancient date-palm oases before the desert horizon opens up.</p>
+
+          <h4 class="text-base font-bold text-zinaGold mt-4 mb-2">The Incomparable Dune Experience</h4>
+          <ul class="list-disc pl-5 space-y-1 text-slate-300">
+            <li><strong>Absolute Silence:</strong> Once you ascend the dune ridges at sunset, the profound stillness of the Sahara is an experience impossible to find in modern urban life.</li>
+            <li><strong>The Cosmic Night Sky:</strong> With zero light pollution for hundreds of kilometers, the stars and the Milky Way feel close enough to touch.</li>
+            <li><strong>Modern Glamping Comfort:</strong> Gone are the days of drafty tents with shared outhouses; our luxury camps feature plush king beds, private hot showers, climate control, and fine Moroccan gastronomy.</li>
+          </ul>
+        `
+      },
+      {
+        id: "morocco-vs-egypt",
+        cat: "culture",
+        catName: "Travel Guide",
+        date: "Jun 19, 2026",
+        read: "7 min read",
+        img: "ourzazate 1.jpg",
+        title: "Morocco vs Egypt: Which Destination Is Better for Your Next Vacation?",
+        question: "Have you been going back and forth between two of Africa's most iconic countries and still can't make up your mind?",
+        tags: ["#Morocco vs Egypt", "#North Africa Travel", "#Compare Destinations"],
+        answer: `
+          <h4 class="text-base font-bold text-zinaGold mb-2">Comparing Two North African Titans</h4>
+          <p>Both Morocco and Egypt offer deep antiquity, intoxicating souks, and vast desert landscapes, but their day-to-day travel experiences are completely different.</p>
+
+          <h4 class="text-base font-bold text-zinaGold mt-4 mb-2">Where Egypt Wins: Ancient Monumental Scale</h4>
+          <p>If your childhood dream is standing before 4,500-year-old pyramids, exploring the subterranean tombs of King Tut in the Valley of the Kings, and cruising down the historic Nile River, Egypt’s pharaonic archaeological marvels have no equivalent on Earth.</p>
+
+          <h4 class="text-base font-bold text-zinaGold mt-4 mb-2">Where Morocco Offers a Superior Holiday Experience</h4>
+          <ul class="list-disc pl-5 space-y-1.5 text-slate-300">
+            <li><strong>Boutique Accommodations (Riads):</strong> Instead of standardized chain hotels, Morocco offers thousands of privately owned, artistically restored courtyard palaces with plunge pools and personal butler-level hospitality.</li>
+            <li><strong>Geographical Variety:</strong> Within a single week, you can hike alpine peaks in the High Atlas, surf Atlantic waves in Essaouira, explore medieval labyrinth medinas, and ride camels across towering sand dunes.</li>
+            <li><strong>Far Less Marketplace Pressure:</strong> While medinas require friendly price negotiations, tourist harassment and aggressive touts are significantly less prevalent in Morocco than around major Egyptian monuments.</li>
+            <li><strong>Gastronomic Diversity:</strong> Moroccan cuisine is globally celebrated for its nuanced use of fresh produce, saffron, Argan oil, and slow tagine stews.</li>
+          </ul>
+        `
+      },
+      {
+        id: "marrakech-vs-fes",
+        cat: "culture",
+        catName: "Travel Guide",
+        date: "Jun 18, 2026",
+        read: "7 min read",
+        img: "marrakech1.jpg",
+        title: "Marrakech vs Fes: Which Moroccan City Should You Visit?",
+        question: "Have you been staring at your Morocco itinerary trying to decide between two cities that both sound absolutely incredible? Are you worried about picking the wrong one and missing out?",
+        tags: ["#Marrakech vs Fes", "#Imperial Cities", "#Morocco Decision"],
+        answer: `
+          <h4 class="text-base font-bold text-zinaGold mb-2">Contrasting Two Legendary Imperial Capitals</h4>
+          <p>If your travel schedule forces you to choose between Marrakech and Fes, understanding their distinct personalities will help you pick the perfect match for your travel style.</p>
+
+          <h4 class="text-base font-bold text-zinaGold mt-4 mb-2">Choose Marrakech If You Seek: Energy, Glamour & Variety</h4>
+          <ul class="list-disc pl-5 space-y-1 text-slate-300">
+            <li><strong>Vibrant Atmosphere:</strong> Jemaa el-Fnaa square transforms every evening into a theatrical carnival of music, food smoke, and storytelling.</li>
+            <li><strong>Cosmopolitan Dining & Nightlife:</strong> Boasts rooftop cocktail lounges, world-class French-Moroccan fusion restaurants, and chic fashion boutiques.</li>
+            <li><strong>Gardens & Palaces:</strong> Breathtaking botanical havens like Jardin Majorelle, Le Jardin Secret, and Bahia Palace.</li>
+          </ul>
+
+          <h4 class="text-base font-bold text-zinaGold mt-4 mb-2">Choose Fes If You Seek: Raw History, Spirituality & Craftsmanship</h4>
+          <ul class="list-disc pl-5 space-y-1 text-slate-300">
+            <li><strong>Unfiltered Medieval Heritage:</strong> Fes feels preserved in time. Donkeys carry goods through 9,000 car-free lanes, and life moves to the call of ancient minarets.</li>
+            <li><strong>Artisan Guilds:</strong> The spiritual capital of master copper-smiths, zellij mosaic carvers, silk weavers, and medieval leather tanners.</li>
+            <li><strong>Intellectual Depth:</strong> Home to the oldest university on the planet (Al-Qarawiyyin) and serene Marinid madrasas.</li>
+          </ul>
+
+          <p class="mt-2 text-xs text-zinaGold"><em>Our Recommendation: Take a 7 to 10-day tour that connects both cities via the Sahara Desert route!</em></p>
+        `
+      },
+      {
+        id: "best-time-weather-festivals",
+        cat: "safety",
+        catName: "Travel Guide",
+        date: "Jun 17, 2026",
+        read: "7 min read",
+        img: "fez 3.jpg",
+        title: "Best Time to Visit Morocco: Weather, Festivals & Travel Seasons",
+        question: "Planning a trip to Morocco but not sure when to go?",
+        tags: ["#Best Time", "#Festivals", "#Morocco Weather"],
+        answer: `
+          <h4 class="text-base font-bold text-zinaGold mb-2">Timing Your Journey with Cultural Celebrations</h4>
+          <p>Beyond finding comfortable temperatures, timing your visit to coincide with Morocco's vibrant regional festivals turns an enjoyable trip into an extraordinary cultural immersion.</p>
+
+          <h4 class="text-base font-bold text-zinaGold mt-4 mb-2">Top Annual Festivals Across Morocco</h4>
+          <ul class="list-disc pl-5 space-y-1.5 text-slate-300">
+            <li><strong>Kelaat M'Gouna Rose Festival (May):</strong> Held in the Dades Valley when millions of Persian roses are harvested. The streets fill with rose petal parades, traditional singing, and fresh rose water distillation.</li>
+            <li><strong>Gnaoua World Music Festival in Essaouira (June):</strong> Hundreds of thousands gather along the historic Atlantic ramparts for free open-air concerts pairing mystical Berber-African Gnawa rhythms with jazz and rock legends.</li>
+            <li><strong>Fes Festival of World Sacred Music (May/June):</strong> Hosted within ancient palaces and courtyards, featuring Sufi chanting, whirling dervishes, and global spiritual ensembles.</li>
+            <li><strong>Erfoud Date Festival (October):</strong> Celebrates the end of the date harvest in the Tafilalet oasis with camel races, Berber folklore, and tastings of dozens of rare date varieties.</li>
+          </ul>
+
+          <h4 class="text-base font-bold text-zinaGold mt-4 mb-2">Traveling During Ramadan</h4>
+          <p>Visiting during the holy month of Ramadan offers a unique cultural perspective. While medinas are peaceful during the day, the sunset call to prayer sparks lively street festivities as families break their fast (<em>Iftar</em>) with harira, dates, and honey pastries.</p>
+        `
+      },
+      {
+        id: "best-morocco-itinerary-7-10-14",
+        cat: "planning",
+        catName: "Travel Guide",
+        date: "Jun 3, 2026",
+        read: "7 min read",
+        img: "ourzazate 2.jpg",
+        title: "Best Morocco Itinerary for 7, 10, and 14 Days",
+        question: "Ever been totally lost staring at a map of North Africa while planning a Morocco itinerary?",
+        tags: ["#Morocco travel route", "#Morocco Itinerary", "#7 day Morocco itinerary"],
+        answer: `
+          <h4 class="text-base font-bold text-zinaGold mb-2">Selecting the Right Route for Your Schedule</h4>
+          <p>Morocco is larger than California, with varied topography ranging from coastal plains to 4,000-meter peaks. Avoid overpacking your itinerary by matching your available days to these proven route frameworks:</p>
+
+          <h4 class="text-base font-bold text-zinaGold mt-4 mb-2">1. The 7-Day "Highlights & Sahara" Sprint</h4>
+          <p><strong>Route:</strong> Marrakech -> Dades Valley -> Merzouga Desert -> Fes -> Casablanca.<br>
+          <em>Verdict:</em> Fast-paced but captures the two most important medinas and a night in the Sahara dunes.</p>
+
+          <h4 class="text-base font-bold text-zinaGold mt-4 mb-2">2. The 10-Day "Grand Imperial & Sahara" Loop</h4>
+          <p><strong>Route:</strong> Casablanca -> Rabat -> Meknes & Volubilis -> Fes (2 nights) -> Merzouga Desert (2 nights) -> Todra Gorge & Ouarzazate -> Marrakech (2 nights).<br>
+          <em>Verdict:</em> The ideal sweet spot balance between cultural heritage, comfortable driving legs, and true desert immersion.</p>
+
+          <h4 class="text-base font-bold text-zinaGold mt-4 mb-2">3. The 14-Day "Comprehensive Kingdom Discovery"</h4>
+          <p><strong>Route:</strong> Tangier & Chefchaouen (The Blue Pearl) -> Fes -> Merzouga Sahara -> Todra -> Skoura Oasis -> Marrakech -> Essaouira Atlantic Coast -> Casablanca.<br>
+          <em>Verdict:</em> The ultimate zero-compromise holiday covering northern Rif mountain culture, deep Sahara glamping, and refreshing ocean breezes.</p>
+        `
+      },
+      {
+        id: "top-tours-from-casablanca",
+        cat: "planning",
+        catName: "Travel Guide",
+        date: "Jun 2, 2026",
+        read: "8 min read",
+        img: "casablanca 2.jpg",
+        title: "Top Tours from Casablanca: Explore Morocco Like a Local",
+        question: "Planning a Morocco trip is exciting until you're staring at a map wondering, where to actually start",
+        tags: ["#Casablanca Tours", "#Local Chauffeur", "#Imperial Gateways"],
+        answer: `
+          <h4 class="text-base font-bold text-zinaGold mb-2">Why Casablanca Is the Ideal Starting Point</h4>
+          <p>Because Casablanca hosts Mohammed V International Airport (CMN)—Morocco’s largest aviation hub—over 80% of long-haul international flights land here. Rather than rushing away immediately, starting your private overland tour from Casablanca allows for a seamless, well-paced circuit.</p>
+
+          <h4 class="text-base font-bold text-zinaGold mt-4 mb-2">Top 3 Private Routes Starting in Casablanca</h4>
+          <ul class="list-disc pl-5 space-y-1.5 text-slate-300">
+            <li><strong>The Imperial Highway Circuit (6–8 Days):</strong> Casablanca -> Rabat -> Meknes -> Volubilis -> Fes -> Marrakech -> Casablanca. Perfect for travelers seeking architectural history and culinary riads without long desert driving legs.</li>
+            <li><strong>The Atlantic & Northern Pearl Circuit (7 Days):</strong> Casablanca -> Rabat -> Tangier -> Chefchaouen (The Blue Pearl) -> Fes -> Casablanca. Ideal for photographers who want coastal citadels and blue-washed mountain towns.</li>
+            <li><strong>The Grand Trans-Saharan Loop (10–12 Days):</strong> Casablanca -> Fes -> Merzouga Sahara -> Todra Gorge -> Ouarzazate -> Marrakech -> Casablanca. The ultimate full-circle Moroccan vacation.</li>
+          </ul>
+
+          <h4 class="text-base font-bold text-zinaGold mt-4 mb-2">Our Private Driver Arrival Protocol</h4>
+          <p>Your dedicated chauffeur greets you directly outside customs with your name board, escorts you to your air-conditioned 4x4 or minivan, and kicks off your tour with a private visit to the Hassan II Mosque.</p>
+        `
+      },
+      {
+        id: "marrakech-food-tours",
+        cat: "culture",
+        catName: "Travel Packages",
+        date: "May 15, 2026",
+        read: "8 min read",
+        img: "marrakech 2.jpg",
+        title: "Exploring Marrakech Through Its Flavors: A Guide to Marrakech Food Tours",
+        question: "The first evening in Marrakech catches most travelers off guard in the best possible way.",
+        tags: ["#Marrakech Food Tours", "#Marrakech Food Guide", "#Moroccan Cuisine"],
+        answer: `
+          <h4 class="text-base font-bold text-zinaGold mb-2">Unlocking the Culinary Labyrinth of Jemaa el-Fnaa</h4>
+          <p>At twilight, Marrakech’s central square erupts into an open-air banquet. Over 100 food stalls fire up charcoal braziers, filling the evening air with the aroma of cumin, grilled meats, and simmered spices. While navigating this sensory explosion can be overwhelming, an insider food walk connects you directly to trusted heritage food masters.</p>
+
+          <h4 class="text-base font-bold text-zinaGold mt-4 mb-2">The 4 Must-Have Tasting Stops</h4>
+          <ul class="list-disc pl-5 space-y-1.5 text-slate-300">
+            <li><strong>Mechoui Alley (Souk Ahal Fes):</strong> Deep underground clay pit ovens where whole seasoned sheep are roasted for hours until the meat becomes so tender it falls apart with a touch of cumin and salt.</li>
+            <li><strong>Spiced Snail Broth (Babbouche):</strong> Street carts simmering local garden snails in an aromatic broth infused with over 15 herbs, including thyme, licorice root, aniseed, and dried orange peel.</li>
+            <li><strong>Stuffed Msemmen & Harira:</strong> Watch street bakers knead dough on hot oiled griddles, serving flaky flatbreads stuffed with spiced onions and peppers alongside traditional lentil soup.</li>
+            <li><strong>Sfenj & Sweet Pastries:</strong> Hot, freshly fried Moroccan donuts dipped in orange blossom honey, followed by almond gazelle horns (<em>Cornes de Gazelle</em>) and fresh mint tea.</li>
+          </ul>
+        `
+      },
+      {
+        id: "customized-travel-packages",
+        cat: "planning",
+        catName: "Travel Packages",
+        date: "Apr 16, 2026",
+        read: "8 min read",
+        img: "Chefchaouen6.jpg",
+        title: "Explore Morocco with Customized Travel Packages",
+        question: "Where do you begin? Marrakech or Fes first? How many days for the Sahara? Can you fit Chefchaouen in without everything feeling rushed? Most travelers get stuck here",
+        tags: ["#Travel Packages", "#Morocco tours"],
+        answer: `
+          <h4 class="text-base font-bold text-zinaGold mb-2">Why Tailor-Made Beats One-Size-Fits-All</h4>
+          <p>Rigid big-bus coach tours force 40 passengers to follow the same schedule, shop at pre-selected commission traps, and wake up at 6:00 AM every morning. Morocco is deeply personal—a family traveling with young children has entirely different travel priorities than a retired couple or newlyweds on their honeymoon.</p>
+
+          <h4 class="text-base font-bold text-zinaGold mt-4 mb-2">How Zina Tailors Your Private Itinerary</h4>
+          <ul class="list-disc pl-5 space-y-1.5 text-slate-300">
+            <li><strong>Customized Travel Pace:</strong> Prefer lazy mornings with poolside mint tea, or sunrise photography hikes? Your private itinerary moves entirely at your rhythm.</li>
+            <li><strong>Selected Riad Collections:</strong> Choose between historic 18th-century palatial riads, sleek contemporary boutique riads, or rural kasbah retreats.</li>
+            <li><strong>Specialized Activity Inclusions:</strong> Add private pottery workshops in Fes, hot air balloon flights over the Marrakech palm groves at sunrise, Atlas mountain cooking masterclasses, or sand quad biking in Erg Chebbi.</li>
+            <li><strong>Flexible On-Road Logistics:</strong> Change your route on the fly. If you want to spend an extra hour walking along Todra Gorge or stop at an argan cooperative, your private driver adapts to you.</li>
+          </ul>
+        `
+      },
+      {
+        id: "night-in-a-riad",
+        cat: "culture",
+        catName: "Experiences Guide",
+        date: "Apr 16, 2026",
+        read: "2 min read",
+        img: "marrakech 5.jpg",
+        title: "A Night in a Riad: The Secret to an Authentic Moroccan Experience",
+        question: "Explore the enchanting world of Moroccan Riads. Discover why these traditional courtyard homes are the ultimate sanctuary for your stay in Morocco. Read our guide to learn more!",
+        tags: ["#Morocco Travel", "#Accommodation", "#Riad Guide"],
+        answer: `
+          <h4 class="text-base font-bold text-zinaGold mb-2">What Exactly Is a Moroccan Riad?</h4>
+          <p>The word <em>Riad</em> originates from the Arabic word <em>Ryad</em>, meaning an enclosed garden. Unlike Western hotels with windows facing outward toward noisy streets, traditional riads are inward-facing architectural sanctuaries designed around a central open-air courtyard, typically featuring orange trees, tiled fountains, and hand-carved cedar galleries.</p>
+
+          <h4 class="text-base font-bold text-zinaGold mt-4 mb-2">The Sensory Riad Experience</h4>
+          <ul class="list-disc pl-5 space-y-1 text-slate-300">
+            <li><strong>Serene Contrast:</strong> Step from the intense, buzzing energy of the medina through heavy wooden doors into a tranquil courtyard where only birdsong and splashing fountains echo.</li>
+            <li><strong>Intricate Artisan Details:</strong> Floors and arches decorated with handmade zellij tilework, walls finished in waterproof polished <em>tadelakt</em> plaster, and ceilings of carved cedarwood.</li>
+            <li><strong>Unmatched Personalized Care:</strong> With only 4 to 10 rooms per property, riad hosts welcome you with warm mint tea and homemade almond cookies, offering tailored service that large resort chains cannot match.</li>
+          </ul>
+        `
+      },
+      {
+        id: "summer-morocco-travel",
+        cat: "safety",
+        catName: "Morocco Travel Guide",
+        date: "Apr 16, 2026",
+        read: "2 min read",
+        img: "agadir 3.jpg",
+        title: "Is Summer a Good Time to Visit Morocco? Absolutely!",
+        question: "Yes — summer can be a great time to visit Morocco, but it depends on where you go and how you plan your trip.",
+        tags: ["#morocco summer travel", "#best time to visit morocco", "#morocco weather"],
+        answer: `
+          <h4 class="text-base font-bold text-zinaGold mb-2">Mastering Summer Travel in North Africa</h4>
+          <p>While inland desert regions reach blistering midday heat in July and August, Morocco's unique geography features over 1,800 kilometers of coastline and towering mountain ranges that offer refreshing summer escapes.</p>
+
+          <h4 class="text-base font-bold text-zinaGold mt-4 mb-2">The Winning Summer Strategy</h4>
+          <ul class="list-disc pl-5 space-y-1.5 text-slate-300">
+            <li><strong>Stick to the Atlantic Coast:</strong> The coastal gems of Essaouira, Taghazout, and Oualidia enjoy natural air conditioning via the Atlantic trade winds (Alizés), with pleasant summer highs averaging 23°C to 26°C (73°F–79°F).</li>
+            <li><strong>Retreat to the High Atlas:</strong> At elevations between 1,800 and 2,500 meters in valleys like Imlil and the Ourika Valley, mountain air remains brisk and comfortable, perfect for hiking and balcony dining.</li>
+            <li><strong>Smart Timing in the Cities:</strong> If visiting Marrakech or Fes, schedule palace visits for early morning, relax by your riad plunge pool during the midday heat, and head out into the vibrant medina after 6:00 PM when temperatures cool.</li>
+          </ul>
+        `
+      },
+      {
+        id: "is-morocco-safe-2026",
+        cat: "safety",
+        catName: "Safety Guide 2026",
+        date: "Apr 16, 2026",
+        read: "5 min read",
+        img: "rabat3.jpg",
+        title: "Is It Safe to Travel to Morocco Right Now? 2026 Safety Guide for Tourists",
+        question: "Last updated on March 16th, 2026 at 01:21 pm If you are planning a trip and wondering, “Is it safe to travel to Morocco right now?”, you are not alone. In recent weeks, global news about geopolitical tensions in parts of the Middle East has made many travelers question whether destinations across the region are safe to visit. Because Morocco is located in North Africa, some travelers naturally wonder if these events affect travel there. The good news is that Morocco remains a stable and welcoming destination for international visitors. Tourism continues normally across the country, and millions of travelers visit every year to explore Morocco’s vibrant culture, historic cities, and breathtaking landscapes. In this guide, we explain the current safety situation in Morocco in 2026, what travelers should realistically expect, and how to enjoy a safe and memorable journey. Planning a Trip to Morocco? Discover Morocco safely and comfortably with a private tour tailored to your interests. Contact us today to start planning your journey!",
+        tags: ["#morocco", "#morocco tours", "#is morocco safe ?"],
+        answer: `
+          <h4 class="text-base font-bold text-zinaGold mb-2">Current Security Situation & Stability in 2026</h4>
+          <p>Geographically and politically, Morocco is located in the northwest corner of Africa, separated from Middle Eastern regional conflicts by thousands of kilometers. Morocco has long maintained solid internal stability, an enduring constitutional monarchy, and world-class intelligence and security services recognized by international partners.</p>
+
+          <h4 class="text-base font-bold text-zinaGold mt-4 mb-2">Everyday Tourist Protection Measures</h4>
+          <ul class="list-disc pl-5 space-y-1.5 text-slate-300">
+            <li><strong>Dedicated Tourism Police (Brigade Touristique):</strong> Stationed in uniform and plainclothes throughout every imperial medina, market square, and historic monument to protect international visitors.</li>
+            <li><strong>Strict Licensing Standards:</strong> Only officially licensed national and local guides are permitted to lead tour groups, virtually eliminating unlicensed interference.</li>
+            <li><strong>Infrastructure Integrity:</strong> The country's modern toll motorways, high-speed rail lines, and international airports operate smoothly under strict global safety standards.</li>
+          </ul>
+
+          <h4 class="text-base font-bold text-zinaGold mt-4 mb-2">Common Sense Safety Tips</h4>
+          <p>Violent crime is practically nonexistent for tourists. Standard urban awareness applies: keep your valuables zipped in crowded evening markets, avoid dimly lit alleys late at night, and agree on taxi fares or rely on your private dedicated driver for complete peace of mind.</p>
+        `
+      }
+    ];
+
+    /* ================= RENDER BLOG FUNCTION ================= */
+    let blogCategoryState = 'all';
+    let blogSearchState = '';
+
+    function displayBlogGrid() {
+      const container = document.getElementById('blogCardsGrid');
+      if (!container) return;
+
+      const filtered = blogRegistry.filter(item => {
+        const catMatch = (blogCategoryState === 'all') || (item.cat === blogCategoryState);
+        const term = blogSearchState.toLowerCase();
+        const termMatch = item.title.toLowerCase().includes(term) ||
+                          item.question.toLowerCase().includes(term) ||
+                          item.tags.some(t => t.toLowerCase().includes(term));
+        return catMatch && termMatch;
+      });
+
+      if (filtered.length === 0) {
+        container.innerHTML = `
+          <div class="col-span-full py-16 text-center text-slate-400">
+            <i class="fa-solid fa-compass text-3xl text-zinaGold mb-3"></i>
+            <p class="text-sm">No articles matched your criteria. Try another search or filter.</p>
+          </div>
+        `;
+        return;
+      }
+
+      container.innerHTML = filtered.map(post => `
+        <article onclick="openBlogModal('${post.id}')" class="zina-card rounded-3xl overflow-hidden flex flex-col cursor-pointer group">
+          <div class="relative h-56 overflow-hidden bg-zinaNavy-950">
+            <img src="${post.img}" alt="${post.title}" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
+            <div class="absolute inset-0 bg-gradient-to-t from-[#050F1D] via-transparent to-transparent"></div>
+            
+            <div class="absolute top-3 left-3 bg-zinaNavy-900/90 text-zinaGold text-[10px] font-bold uppercase tracking-wider px-3 py-1 rounded-full border border-zinaGold/30">
+              ${post.catName}
+            </div>
+            <div class="absolute bottom-3 right-3 bg-zinaNavy-950/80 text-slate-300 text-[10px] px-2.5 py-0.5 rounded-full">
+              ${post.read}
+            </div>
+          </div>
+
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between text-[11px] text-slate-400 mb-2">
+                <span class="text-zinaGold font-semibold">Zina Morocco Tours</span>
+                <span>${post.date}</span>
+              </div>
+
+              <h3 class="text-lg font-bold text-white group-hover:text-zinaGold transition-colors mb-3 leading-snug">
+                ${post.title}
+              </h3>
+
+              <p class="text-slate-300 text-xs leading-relaxed line-clamp-3 mb-4 font-normal italic">
+                "${post.question}"
+              </p>
+            </div>
+
+            <div>
+              <div class="flex flex-wrap gap-1.5 mb-3">
+                ${post.tags.slice(0, 2).map(tag => `
+                  <span class="text-[9px] bg-zinaNavy-950 text-zinaGold px-2 py-0.5 rounded border border-zinaGold/20 font-mono">${tag}</span>
+                `).join('')}
+              </div>
+
+              <div class="text-zinaGold hover:text-zinaGold-400 text-xs font-bold tracking-wider uppercase flex items-center justify-between pt-3 border-t border-white/10">
+                <span>Click for Full Answer & Guide</span>
+                <i class="fa-solid fa-arrow-right text-[10px] group-hover:translate-x-1 transition-transform"></i>
+              </div>
+            </div>
+          </div>
+        </article>
+      `).join('');
+    }
+
+    function setBlogCategory(cat) {
+      blogCategoryState = cat;
+      document.querySelectorAll('.blog-filter-btn').forEach(btn => {
+        btn.classList.remove('active', 'bg-zinaGold', 'text-slate-950', 'font-bold');
+        btn.classList.add('bg-zinaNavy-900', 'text-slate-200');
+      });
+      event.target.classList.add('active', 'bg-zinaGold', 'text-slate-950', 'font-bold');
+      event.target.classList.remove('bg-zinaNavy-900', 'text-slate-200');
+      displayBlogGrid();
+    }
+
+    function executeBlogSearch(val) {
+      blogSearchState = val;
+      displayBlogGrid();
+    }
+
+    /* ================= OPEN / CLOSE BLOG READING MODAL ================= */
+    function openBlogModal(id) {
+      const post = blogRegistry.find(p => p.id === id);
+      if (!post) return;
+
+      document.getElementById('blogModalImg').src = post.img;
+      document.getElementById('blogModalBadgeCat').innerText = post.catName;
+      document.getElementById('blogModalTime').innerText = post.read;
+      document.getElementById('blogModalPostTitle').innerText = post.title;
+      document.getElementById('blogModalPostDate').innerText = `Published by Zina Morocco Tours • ${post.date}`;
+      document.getElementById('blogModalHook').innerText = post.question;
+      document.getElementById('blogModalBody').innerHTML = post.answer;
+
+      const tagsBox = document.getElementById('blogModalTags');
+      tagsBox.innerHTML = post.tags.map(t => `
+        <span class="text-xs bg-zinaNavy-900 text-zinaGold px-3 py-1 rounded-full border border-zinaGold/30 font-mono">${t}</span>
+      `).join('');
+
+      const actionBtn = document.getElementById('blogModalActionBtn');
+      actionBtn.onclick = function() {
+        closeBlogModal();
+        document.getElementById('formSubject').value = `Question regarding: ${post.title}`;
+        document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });
+      };
+
+      document.getElementById('blogReadingModal').classList.remove('hidden');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeBlogModal() {
+      document.getElementById('blogReadingModal').classList.add('hidden');
+      document.body.style.overflow = '';
+    }
+
+    /* ================= OPEN / CLOSE DESTINATION DETAIL MODAL ================= */
+    function openDestModal(key) {
+      const data = destinationRegistry[key];
+      if (!data) return;
+
+      document.getElementById('destModalHeroImg').src = data.hero;
+      document.getElementById('destModalBadge').innerText = data.badge;
+      document.getElementById('destModalTitle').innerText = data.title;
+      document.getElementById('destModalSubtitle').innerText = data.subtitle;
+      document.getElementById('destModalDescription').innerText = data.description;
+      document.getElementById('destModalBestTime').innerText = data.bestTime;
+      document.getElementById('destModalVibe').innerText = data.vibe;
+      document.getElementById('destModalStay').innerText = data.stay;
+      document.getElementById('destModalIframe').src = data.videoUrl;
+
+      // Location & Interactive Map
+      if (document.getElementById('destModalRegionText')) {
+        document.getElementById('destModalRegionText').innerText = data.region || 'Morocco';
+      }
+      if (document.getElementById('destModalCoordBadge')) {
+        document.getElementById('destModalCoordBadge').innerText = data.lat && data.lon ? `${data.lat.toFixed(2)}°N, ${Math.abs(data.lon).toFixed(2)}°W` : '';
+      }
+      if (document.getElementById('destModalMapIframe')) {
+        document.getElementById('destModalMapIframe').src = data.mapUrl || '';
+      }
+      if (document.getElementById('destModalMapLink')) {
+        document.getElementById('destModalMapLink').href = data.externalMapUrl || '#';
+      }
+
+      const photoGrid = document.getElementById('destModalPhotoGrid');
+      // Filter out empty or missing strings and render only existing images
+      const validPhotos = (data.photos || []).filter(p => p && p.trim() !== '');
+      photoGrid.innerHTML = validPhotos.map(p => `
+        <div class="dest-gallery-item rounded-xl overflow-hidden h-28 sm:h-32 border border-white/10 shadow group bg-zinaNavy-900">
+          <img src="${p}" alt="${data.title}" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" loading="lazy" onerror="this.closest('.dest-gallery-item')?.remove()">
+        </div>
+      `).join('');
+
+      const hlList = document.getElementById('destModalHighlights');
+      hlList.innerHTML = data.highlights.map(h => `
+        <li class="flex items-start gap-2.5">
+          <i class="fa-solid fa-circle-check text-zinaGold mt-1"></i>
+          <span>${h}</span>
+        </li>
+      `).join('');
+
+      const inqBtn = document.getElementById('destModalInquireBtn');
+      inqBtn.onclick = function() {
+        closeDestModal();
+        document.getElementById('formSubject').value = `Inquiry regarding ${data.title} Tour`;
+        document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });
+      };
+
+      document.getElementById('destDetailModal').classList.remove('hidden');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeDestModal() {
+      document.getElementById('destModalIframe').src = '';
+      if (document.getElementById('destModalMapIframe')) {
+        document.getElementById('destModalMapIframe').src = '';
+      }
+      document.getElementById('destDetailModal').classList.add('hidden');
+      document.body.style.overflow = '';
+    }
+
+    /* ================= SOCIAL QR MODALS ================= */
+    function openSocialPopup(type) {
+      const modal = document.getElementById('socialPopupModal');
+      const icon = document.getElementById('socialPopupIcon');
+      const title = document.getElementById('socialPopupTitle');
+      const sub = document.getElementById('socialPopupSubtitle');
+      const idBox = document.getElementById('socialPopupId');
+
+      if (type === 'wechat') {
+        icon.innerHTML = '<i class="fa-brands fa-weixin"></i>';
+        title.innerText = 'WeChat (微信)';
+        sub.innerText = 'Connect with our official team on WeChat';
+        idBox.innerText = 'WeChat ID: ZinaMoroccoTours';
+      } else if (type === 'rednote') {
+        icon.innerHTML = '<i class="fa-solid fa-book-bookmark"></i>';
+        title.innerText = 'RedNote (小红书)';
+        sub.innerText = 'Explore our curated video vlogs & itineraries';
+        idBox.innerText = 'RED ID: 948210375 (Zina Tours)';
+      }
+
+      modal.classList.remove('hidden');
+    }
+
+    function closeSocialPopup() {
+      document.getElementById('socialPopupModal').classList.add('hidden');
+    }
+
+    /* ================= STREAMLINED MESSAGE FORM ================= */
+    
+    /* ================= FORMSPREE SUBMISSION & THANK YOU MODAL ================= */
+    async function handleFormspreeSubmit(e) {
+      e.preventDefault();
+      const form = e.target;
+      const formData = new FormData(form);
+      
+      const submitBtn = form.querySelector('button[type="submit"]');
+      const originalBtnText = submitBtn.innerHTML;
+      submitBtn.disabled = true;
+      submitBtn.innerHTML = '<i class="fa-solid fa-spinner fa-spin mr-2"></i> Sending...';
+
+      try {
+        const response = await fetch(form.action, {
+          method: 'POST',
+          body: formData,
+          headers: {
+            'Accept': 'application/json'
+          }
+        });
+
+        if (response.ok) {
+          // Show thank you modal/toast
+          document.getElementById('formSuccessToast').classList.remove('hidden');
+          form.reset();
+        } else {
+          const data = await response.json();
+          if (data && data.errors) {
+            alert("Error: " + data.errors.map(error => error.message).join(", "));
+          } else {
+            alert("Oops! There was a problem submitting your form. Please email us directly at zinamoroccotours@gmail.com");
+          }
+        }
+      } catch (error) {
+        alert("Network error. Please check your connection or email us directly at zinamoroccotours@gmail.com");
+      } finally {
+        submitBtn.disabled = false;
+        submitBtn.innerHTML = originalBtnText;
+      }
+    }
+
+    function handleSendCleanForm(e) {
+      e.preventDefault();
+
+      const name = document.getElementById('formFullName').value.trim();
+      const email = document.getElementById('formEmailAddress').value.trim();
+      const subject = document.getElementById('formSubject').value.trim();
+      const description = document.getElementById('formDescription').value.trim();
+
+      const encodedSubject = encodeURIComponent(`[Zina Morocco Tours] ${subject}`);
+      const encodedBody = encodeURIComponent(
+        `Dear Zina Morocco Tours,\n\n` +
+        `New trip inquiry received from the website contact form:\n\n` +
+        `----------------------------------------\n` +
+        `SENDER NAME: ${name}\n` +
+        `REPLY EMAIL: ${email}\n` +
+        `SUBJECT: ${subject}\n` +
+        `----------------------------------------\n\n` +
+        `MESSAGE / DESCRIPTION:\n` +
+        `${description}\n\n` +
+        `----------------------------------------\n` +
+        `Sent via Zina Morocco Tours Portal`
+      );
+
+      const mailtoURL = `mailto:zinamoroccotours@gmail.com?subject=${encodedSubject}&body=${encodedBody}`;
+      
+      const link = document.getElementById('emailClientTrigger');
+      if (link) {
+        link.setAttribute('href', mailtoURL);
+      }
+
+      document.getElementById('formSuccessToast').classList.remove('hidden');
+    }
+
+    /* ================= 6-LANGUAGE TRANSLATION DICTIONARY ================= */
+    const translationsDb = {
+    "en": {
+        "top_bar_title": "ZINA MOROCCO TOURS • OFFICIAL PRIVATE LUXURY & SAHARA EXPEDITIONS",
+        "nav_home": "Home",
+        "nav_destinations": "Destinations",
+        "nav_blog": "Travel Blog",
+        "nav_why_us": "Why Us",
+        "nav_reviews": "Reviews",
+        "nav_contact": "Contact Us",
+        "btn_send_msg": "Send Message",
+        "hero_badge": "5.0 Rated Luxury Morocco & Sahara Private Expeditions",
+        "hero_h1_sub": "Handcrafted Private Journeys Through",
+        "hero_h1_main": "Morocco & The Grand Sahara",
+        "hero_lead": "Experience imperial capitals, hidden High Atlas kasbahs, Atlantic coastal gems, and the majestic Erg Chebbi dunes in Merzouga with native Berber guides. Explore our 12 destinations with direct video showcases, read our 27 in-depth travel guides, or send your ideas directly to our team.",
+        "dest_tag": "Authentic Regional Portfolios",
+        "dest_title": "Twelve Iconic Moroccan Destinations",
+        "dest_sub": "Click any destination card below to open the dedicated showcase window containing its authentic YouTube video tour, high-resolution photo gallery, interactive location map, comprehensive history, and itinerary ideas.",
+        "blog_tag": "The Zina Travel Journal",
+        "blog_title": "Travel Stories, Expert Answers & Morocco Guides",
+        "blog_sub": "Every trip starts with questions. Browse our in-depth guides below. Click any card to open a full window answering each question with complete details, packing advice, itineraries, and local Berber insights.",
+        "why_tag": "The Zina Distinction",
+        "why_h2": "Decades of Local Heritage, Unrivaled Luxury & Sincere Care",
+        "rev_tag": "Verified Traveler Reviews",
+        "rev_title": "What Our Travelers Say",
+        "form_tag": "Direct Contact",
+        "form_title": "Send Us A Message",
+        "form_sub": "Have questions about Morocco or want to plan your vacation? Write to us below. Your message will be formatted and addressed directly to zinamoroccotours@gmail.com.",
+        "f_name": "Full Name *",
+        "f_email": "Email Address *",
+        "f_subject": "Subject *",
+        "f_message": "Message / Description *",
+        "f_send_btn": "Send Message to Zina Morocco Tours",
+        "f_target_note": "Directly delivered to zinamoroccotours@gmail.com"
+    },
+    "ar": {
+        "top_bar_title": "ZINA MOROCCO TOURS • رحلات خاصة فاخرة واستكشاف الصحراء الكبرى",
+        "nav_home": "الرئيسية",
+        "nav_destinations": "الوجهات",
+        "nav_blog": "المدونة السياحية",
+        "nav_why_us": "لماذا تختارنا",
+        "nav_reviews": "آراء الضيوف",
+        "nav_contact": "اتصل بنا",
+        "btn_send_msg": "إرسال رسالة",
+        "hero_badge": "تقييم 5.0 على تريب أدفايزر • رحلات خاصة فاخرة بالمغرب",
+        "hero_h1_sub": "استكشف السحر الخالد والجمال الأصيل في",
+        "hero_h1_main": "المغرب والصحراء الكبرى",
+        "hero_lead": "رحلات استثنائية عبر المدن الإمبراطورية ومراكش الحمراء والصويرة الأطلسية ووديان الأطلس الشامخة وكثبان مرزوكة الذهبية مع مرشدين أمازيغ محليين.",
+        "dest_tag": "محافظ إقليمية أصيلة",
+        "dest_title": "اثنتا عشرة وجهة مغربية ساحرة",
+        "dest_sub": "اضغط على أي وجهة لمشاهدة فيديو اليوتيوب المباشر، ومعرض الصور والمعلومات التاريخية.",
+        "blog_tag": "مجلة زينا للسفر",
+        "blog_title": "قصص السفر وإجابات الخبراء وأدلة المغرب",
+        "blog_sub": "كل رحلة تبدأ بتساؤل. تصفح أدلتنا الشاملة واضغط على أي مقال لفتح نافذة تفصيلية تجيبك بعمق.",
+        "why_tag": "ميزة Zina Morocco Tours",
+        "why_h2": "عقود من الخبرة الأمازيغية والضيافة الأصيلة والرفاهية",
+        "rev_tag": "آراء المسافرين الموثوقة",
+        "rev_title": "ماذا يقول مسافرونا",
+        "form_tag": "اتصال مباشر",
+        "form_title": "أرسل لنا رسالتك",
+        "form_sub": "هل لديك أسئلة حول زيارة المغرب أو ترغب في تخطيط عطلتك؟ راسلنا وسنوافيك بالرد مباشرة من zinamoroccotours@gmail.com.",
+        "f_name": "الاسم الكامل *",
+        "f_email": "البريد الإلكتروني *",
+        "f_subject": "الموضوع *",
+        "f_message": "نص الرسالة / التفاصيل *",
+        "f_send_btn": "إرسال الرسالة إلى Zina Morocco Tours",
+        "f_target_note": "يتم الإرسال مباشرة إلى zinamoroccotours@gmail.com"
+    },
+    "fr": {
+        "top_bar_title": "ZINA MOROCCO TOURS • VOYAGES DE LUXE & EXPÉDITIONS SAHARA",
+        "nav_home": "Accueil",
+        "nav_destinations": "Destinations",
+        "nav_blog": "Blog Voyage",
+        "nav_why_us": "Pourquoi Nous",
+        "nav_reviews": "Avis Clients",
+        "nav_contact": "Contactez-Nous",
+        "btn_send_msg": "Envoyer un Message",
+        "hero_badge": "Expéditions Privées d'Exception au Maroc • Noté 5.0",
+        "hero_h1_sub": "Voyages Privés Sur-Mesure à Travers",
+        "hero_h1_main": "Le Maroc & le Grand Sahara",
+        "hero_lead": "Découvrez les cités impériales, les kasbahs de l'Atlas, les perles de la côte atlantique et les dunes de Merzouga avec nos guides berbères natifs.",
+        "dest_tag": "Portfolios Régionaux Authentiques",
+        "dest_title": "Douze Destinations Incontournables",
+        "dest_sub": "Cliquez sur une destination pour visionner sa vidéo YouTube, sa galerie photos et ses récits historiques.",
+        "blog_tag": "Le Journal de Voyage Zina",
+        "blog_title": "Récits de Voyage, Réponses d'Experts & Guides",
+        "blog_sub": "Chaque grand voyage débute par des questions. Cliquez sur un article pour ouvrir la fenêtre détaillée qui répond avec précision à toutes vos interrogations.",
+        "why_tag": "L'Excellence Zina",
+        "why_h2": "Des Décennies de Savoir-Faire Berbère & Confort d'Exception",
+        "rev_tag": "Avis de Voyageurs Vérifiés",
+        "rev_title": "Ce Que Disent Nos Voyageurs",
+        "form_tag": "Contact Direct",
+        "form_title": "Envoyez-Nous un Message",
+        "form_sub": "Une question ou un projet de voyage au Maroc ? Écrivez-nous ci-dessous. Votre message est transmis directement à zinamoroccotours@gmail.com.",
+        "f_name": "Nom & Prénom *",
+        "f_email": "Adresse Email *",
+        "f_subject": "Objet du Message *",
+        "f_message": "Message / Description *",
+        "f_send_btn": "Envoyer à Zina Morocco Tours",
+        "f_target_note": "Délivré directement à zinamoroccotours@gmail.com"
+    },
+    "es": {
+        "top_bar_title": "ZINA MOROCCO TOURS • VIAJES DE LUJO Y RUTAS PRIVADAS POR EL SAHARA",
+        "nav_home": "Inicio",
+        "nav_destinations": "Destinos",
+        "nav_blog": "Blog de Viajes",
+        "nav_why_us": "Por Qué Elegirnos",
+        "nav_reviews": "Opiniones",
+        "nav_contact": "Contacto",
+        "btn_send_msg": "Enviar Mensaje",
+        "hero_badge": "Viajes Privados Exclusivos por Marruecos • 5.0 Estrellas",
+        "hero_h1_sub": "Rutas Privadas a Medida por",
+        "hero_h1_main": "Marruecos y el Gran Sahara",
+        "hero_lead": "Expediciones privadas por las ciudades imperiales, los valles del Atlas y las dunas de Merzouga con chóferes bereberes nativos.",
+        "dest_tag": "Portafolios Regionales Auténticos",
+        "dest_title": "Doce Destinos Emblemáticos de Marruecos",
+        "dest_sub": "Haga clic en cualquier destino para ver sa vídeo en YouTube, galería fotográfica y recomendaciones.",
+        "blog_tag": "El Diario de Viajes Zina",
+        "blog_title": "Historias de Viaje, Respuestas y Guías de Marruecos",
+        "blog_sub": "Todo viaje comienza con dudas. Haga clic en cualquiera de nuestras guías para abrir la ventana con respuestas detalladas y consejos.",
+        "why_tag": "La Distinción Zina",
+        "why_h2": "Décadas de Herencia Local y Cuidado Personalizado",
+        "rev_tag": "Opiniones Verificadas",
+        "rev_title": "Testimonios de Viajeros",
+        "form_tag": "Contacto Directo",
+        "form_title": "Envíenos un Mensaje",
+        "form_sub": "¿Desea consultar fechas o planear su viaje? Escríbanos a continuación y recibirá respuesta de zinamoroccotours@gmail.com.",
+        "f_name": "Nombre Completo *",
+        "f_email": "Correo Electrónico *",
+        "f_subject": "Asunto *",
+        "f_message": "Mensaje / Descripción *",
+        "f_send_btn": "Enviar Mensaje a Zina Morocco Tours",
+        "f_target_note": "Enviado directamente a zinamoroccotours@gmail.com"
+    },
+    "zh": {
+        "top_bar_title": "ZINA 摩洛哥高端私人定制与撒哈拉沙漠探险",
+        "nav_home": "首页",
+        "nav_destinations": "精选目的地",
+        "nav_blog": "旅行专栏",
+        "nav_why_us": "品牌优势",
+        "nav_reviews": "客人口碑",
+        "nav_contact": "联系我们",
+        "btn_send_msg": "发送留言",
+        "hero_badge": "TripAdvisor 5.0满分好评 • 摩洛哥尊贵纯玩独立包车旅行",
+        "hero_h1_sub": "开启令人心驰神往的",
+        "hero_h1_main": "摩洛哥与撒哈拉沙漠之旅",
+        "hero_lead": "专属独立包车畅游四大皇城、高阿特拉斯山谷、索维拉海滨与梅尔祖卡亿万星空营地。浏览目的地视频、探索27篇深度攻略或直接与我们沟通。",
+        "dest_tag": "真实区域精选",
+        "dest_title": "摩洛哥十二大经典璀璨目的地",
+        "dest_sub": "点击任意目的地，即刻打开详情窗口观看真实油管视频、多图画廊与深度历史文化讲解。",
+        "blog_tag": "Zina 旅行日志",
+        "blog_title": "旅行故事、行前答疑与摩洛哥深度指南",
+        "blog_sub": "每一场旅行都始于心中的问题。点击任意卡片即可在弹窗中查看详尽的解答、行程建议及当地柏柏尔人独家攻略。",
+        "why_tag": "Zina 卓越品质",
+        "why_h2": "数十年本土底蕴，真诚热情与尊贵享受",
+        "rev_tag": "真实旅行者评价",
+        "rev_title": "客人的真实赞誉",
+        "form_tag": "直接联系",
+        "form_title": "发送咨询留言",
+        "form_sub": "对摩洛哥行程有任何设想或疑问？请在下方留言，信息将直达官方邮箱 zinamoroccotours@gmail.com。",
+        "f_name": "您的姓名 *",
+        "f_email": "电子邮箱 *",
+        "f_subject": "主题 *",
+        "f_message": "留言内容 / 需求描述 *",
+        "f_send_btn": "一键发送留言至 Zina Morocco Tours",
+        "f_target_note": "直接送达至 zinamoroccotours@gmail.com"
+    },
+    "de": {
+        "top_bar_title": "ZINA MOROCCO TOURS • OFFIZIELLER LUXUSURLAUB & SAHARA EXPEDITIONEN",
+        "nav_home": "Startseite",
+        "nav_destinations": "Reiseziele",
+        "nav_blog": "Reise-Blog",
+        "nav_why_us": "Über Uns",
+        "nav_reviews": "Gästebewertungen",
+        "nav_contact": "Kontakt",
+        "btn_send_msg": "Nachricht Senden",
+        "hero_badge": "Mit 5.0 Bewertete Private Marokko-Luxusreisen",
+        "hero_h1_sub": "Maßgeschneiderte Privatreisen Durch",
+        "hero_h1_main": "Marokko & die Große Sahara",
+        "hero_lead": "Handgefertigte Routen durch Königsstädte, Marrakesch, Essaouira, Atlas-Täler und die Dünen von Merzouga mit einheimischen Berber-Guides.",
+        "dest_tag": "Authentische Regionale Portfolios",
+        "dest_title": "Zwölf Ikonische Marokkanische Reiseziele",
+        "dest_sub": "Klicken Sie auf ein Reiseziel, um YouTube-Videos, Fotogalerien und historische Einblicke zu entdecken.",
+        "blog_tag": "Das Zina Reise-Journal",
+        "blog_title": "Reisegeschichten, Antworten & Marokko-Leitfäden",
+        "blog_sub": "Jede Reise beginnt mit Fragen. Klicken Sie auf einen Beitrag, um das detaillierte Antwortfenster mit allen Einzelheiten zu öffnen.",
+        "why_tag": "Der Zina-Unterschied",
+        "why_h2": "Jahrzehntelange Erfahrung & Echte Gastfreundschaft",
+        "rev_tag": "Verifizierte Reisebewertungen",
+        "rev_title": "Das Sagen Unsere Gäste",
+        "form_tag": "Direkter Kontakt",
+        "form_title": "Schreiben Sie Uns Eine Nachricht",
+        "form_sub": "Haben Sie Fragen oder möchten Sie Ihre Traumreise besprechen? Schreiben Sie uns, die Nachricht geht direkt an zinamoroccotours@gmail.com.",
+        "f_name": "Vollständiger Name *",
+        "f_email": "E-Mail-Adresse *",
+        "f_subject": "Betreff *",
+        "f_message": "Nachricht / Details *",
+        "f_send_btn": "Nachricht an Zina Morocco Tours Senden",
+        "f_target_note": "Direkte Übermittlung an zinamoroccotours@gmail.com"
+    }
+};
+
+    function switchSiteLanguage(lang) {
+      if (!translationsDb[lang]) return;
+      const dict = translationsDb[lang];
+      const body = document.body;
+
+      if (lang === 'ar') {
+        body.classList.add('lang-ar');
+        body.setAttribute('dir', 'rtl');
+      } else {
+        body.classList.remove('lang-ar');
+        body.setAttribute('dir', 'ltr');
+      }
+
+      document.querySelectorAll('[data-i18n]').forEach(el => {
+        const key = el.getAttribute('data-i18n');
+        if (dict[key]) {
+          el.textContent = dict[key];
+        }
+      });
+
+      try {
+        localStorage.setItem('zina_pref_lang', lang);
+      } catch (err) {}
+    }
+
+    function toggleMobileNavMenu() {
+      const drawer = document.getElementById('mobileNavDrawer');
+      if (drawer) drawer.classList.toggle('hidden');
+    }
+
+    /* Initialize Application on DOM Load */
+    
+    function toggleWebsiteTheme() {
+      const body = document.body;
+      const isLight = body.classList.toggle('light-mode');
+      const icon = document.getElementById('themeToggleIcon');
+      const label = document.getElementById('themeToggleLabel');
+
+      if (isLight) {
+        if (icon) icon.className = 'fa-solid fa-moon';
+        if (label) label.textContent = 'Dark Mode';
+        try { localStorage.setItem('zina_pref_theme', 'light'); } catch(e){}
+      } else {
+        if (icon) icon.className = 'fa-solid fa-sun';
+        if (label) label.textContent = 'Light Mode';
+        try { localStorage.setItem('zina_pref_theme', 'dark'); } catch(e){}
+      }
+    }
+
+    // Restore saved theme on load
+    window.addEventListener('DOMContentLoaded', () => {
+      try {
+        const savedTheme = localStorage.getItem('zina_pref_theme');
+        if (savedTheme === 'light') {
+          document.body.classList.add('light-mode');
+          const icon = document.getElementById('themeToggleIcon');
+          const label = document.getElementById('themeToggleLabel');
+          if (icon) icon.className = 'fa-solid fa-moon';
+          if (label) label.textContent = 'Dark Mode';
+        }
+      } catch(e){}
+    });
+
+    window.addEventListener('DOMContentLoaded', () => {
+      displayBlogGrid();
+
+      let saved = 'en';
+      try {
+        saved = localStorage.getItem('zina_pref_lang') || 'en';
+      } catch (e) {}
+
+      const sel = document.getElementById('languageSelector');
+      if (sel && translationsDb[saved]) {
+        sel.value = saved;
+        switchSiteLanguage(saved);
+      }
+    });
+  </script>
+</body>
+</html>
